@@ -3239,6 +3239,10 @@ function safeParse(value) {
   }
 }
 
+function isLocalHost() {
+  return window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+}
+
 function getStorage() {
   try {
     return window.localStorage.getItem(STORAGE_KEY);
