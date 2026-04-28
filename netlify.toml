@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/workspace-intelligence"
+  to = "/.netlify/functions/workspace-intelligence"
+  status = 200
+
+[[redirects]]
+  from = "/api/market-signals"
+  to = "/.netlify/functions/market-signals"
+  status = 200

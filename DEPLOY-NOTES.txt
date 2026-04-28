@@ -1,0 +1,27 @@
+SignalOps Netlify Live Deploy Bundle
+
+Important reality:
+- This project needs Netlify Functions for real-time Competitive Intelligence data.
+- A plain manual upload can leave you in fallback snapshot mode if Netlify does not build/deploy the functions for that deploy.
+
+Recommended path for real-time:
+1. In Netlify, choose "Add new project".
+2. Choose "Import an existing project".
+3. Select GitHub.
+4. Pick your repository.
+5. Confirm:
+   - Publish directory: .
+   - Functions directory: netlify/functions
+6. Deploy.
+
+If you still use a manual upload:
+1. Upload this folder as the project root.
+2. After deploy, immediately test:
+   - /.netlify/functions/workspace-intelligence
+   - /.netlify/functions/market-signals
+3. If those URLs do not return JSON, the deploy is not running the live functions and the dashboard will show fallback snapshot.
+
+Why this happens:
+- Netlify manual deploys do not run a build command.
+- Netlify Functions are prepared during the build/deploy pipeline.
+- For this app, Git-connected deploy is the reliable real-time option.

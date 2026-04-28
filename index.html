@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBM Netezza Product Marketing Insights</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="topbar-main">
+        <div class="brand-block">
+          <div class="ibm-badge">IBM</div>
+          <div>
+            <p id="topbarEyebrow" class="eyebrow">IBM Netezza Competitive Intelligence</p>
+            <h1 id="topbarTitle">Product Marketing Insights Workspace</h1>
+            <p id="topbarCopy" class="topbar-copy">Compare Netezza with the competitor set, curate source feeds, and turn market activity into content, PMM asset, product, and positioning actions.</p>
+          </div>
+        </div>
+        <div class="section-switcher" role="tablist" aria-label="Workspace sections">
+          <button class="section-tab active" type="button" data-section-target="pmm">Competitive Intelligence</button>
+          <button class="section-tab" type="button" data-section-target="community">Community Intelligence</button>
+        </div>
+      </div>
+
+      <div class="meta-grid">
+        <article class="meta-card">
+          <span class="meta-label">Last updated</span>
+          <strong id="lastUpdated">Loading...</strong>
+        </article>
+        <article class="meta-card">
+          <span class="meta-label">Insight types</span>
+          <strong id="insightTypeCount">0</strong>
+        </article>
+        <article class="meta-card">
+          <span class="meta-label">Source feeds</span>
+          <strong id="sourceFeedCount">0</strong>
+        </article>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <aside class="sidebar">
+        <div class="sidebar-panel">
+          <p class="sidebar-label">Pages</p>
+          <div id="sidebarPageNav"></div>
+        </div>
+
+        <div class="sidebar-panel">
+          <p id="sidebarContextLabel" class="sidebar-label">Competitors tracked</p>
+          <div id="sidebarContextList" class="sidebar-list"></div>
+        </div>
+
+        <div class="sidebar-panel sidebar-note">
+          <p id="sidebarNoteLabel" class="sidebar-label">Workspace behavior</p>
+          <p id="sidebarNoteCopy">Source URLs can be edited inline and saved locally in the browser. Filters and the last page you visited also persist locally.</p>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section class="page-section active" id="page-overview"></section>
+        <section class="page-section" id="page-content"></section>
+        <section class="page-section" id="page-events"></section>
+        <section class="page-section" id="page-market"></section>
+        <section class="page-section" id="page-product"></section>
+        <section class="page-section" id="page-positioning"></section>
+        <section class="page-section" id="page-manage"></section>
+        <section class="page-section" id="page-community-announcements"></section>
+        <section class="page-section" id="page-community-thought-leadership"></section>
+        <section class="page-section" id="page-community-replies"></section>
+        <section class="page-section" id="page-community-manage"></section>
+      </main>
+    </div>
+  </div>
+
+  <script type="module" src="./dashboard.js"></script>
+</body>
+</html>
