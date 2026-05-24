@@ -1,0 +1,149 @@
+[
+  {
+    "kind": "feed",
+    "competitor": "Databricks",
+    "source": "Google News - Databricks SQL",
+    "sourceType": "News",
+    "url": "https://news.google.com/rss/search?q=Databricks%20SQL%20warehouse%20OR%20lakehouse&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "kind": "feed",
+    "competitor": "Databricks",
+    "source": "Google News - Databricks migration",
+    "sourceType": "News",
+    "url": "https://news.google.com/rss/search?q=Databricks%20migration%20data%20warehouse&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "kind": "feed",
+    "competitor": "Snowflake",
+    "source": "Google News - Snowflake Cortex",
+    "sourceType": "News",
+    "url": "https://news.google.com/rss/search?q=Snowflake%20Cortex%20AI%20data%20cloud&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "kind": "feed",
+    "competitor": "Snowflake",
+    "source": "Google News - Snowflake pricing",
+    "sourceType": "News",
+    "url": "https://news.google.com/rss/search?q=Snowflake%20pricing%20data%20cloud&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "kind": "feed",
+    "competitor": "Amazon Redshift",
+    "source": "Google News - Redshift serverless",
+    "sourceType": "News",
+    "url": "https://news.google.com/rss/search?q=%22Amazon%20Redshift%22%20serverless%20analytics&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "kind": "feed",
+    "competitor": "BigQuery",
+    "source": "Google News - BigQuery AI",
+    "sourceType": "News",
+    "url": "https://news.google.com/rss/search?q=BigQuery%20AI%20analytics%20warehouse&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "kind": "feed",
+    "competitor": "Teradata",
+    "source": "Google News - Teradata Vantage",
+    "sourceType": "News",
+    "url": "https://news.google.com/rss/search?q=Teradata%20Vantage%20analytics%20AI&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "kind": "json",
+    "competitor": "Databricks",
+    "source": "Databricks LinkedIn proxy",
+    "sourceType": "LinkedIn",
+    "url": "/.netlify/functions/linkedin-databricks",
+    "itemsPath": "items",
+    "titlePath": "title",
+    "summaryPath": "summary",
+    "linkPath": "url",
+    "datePath": "publishedAt",
+    "matchAny": ["databricks", "lakehouse", "warehouse", "ai"]
+  },
+  {
+    "kind": "json",
+    "competitor": "Snowflake",
+    "source": "Snowflake LinkedIn proxy",
+    "sourceType": "LinkedIn",
+    "url": "/.netlify/functions/linkedin-snowflake",
+    "itemsPath": "items",
+    "titlePath": "title",
+    "summaryPath": "summary",
+    "linkPath": "url",
+    "datePath": "publishedAt",
+    "matchAny": ["snowflake", "cortex", "pricing", "governance"]
+  },
+  {
+    "kind": "json",
+    "competitor": "Databricks",
+    "source": "Databricks G2 proxy",
+    "sourceType": "G2",
+    "url": "/.netlify/functions/g2-databricks",
+    "itemsPath": "items",
+    "titlePath": "title",
+    "summaryPath": "summary",
+    "linkPath": "url",
+    "datePath": "publishedAt"
+  },
+  {
+    "kind": "json",
+    "competitor": "Amazon Redshift",
+    "source": "Amazon Redshift G2 proxy",
+    "sourceType": "G2",
+    "url": "/.netlify/functions/g2-redshift",
+    "itemsPath": "items",
+    "titlePath": "title",
+    "summaryPath": "summary",
+    "linkPath": "url",
+    "datePath": "publishedAt"
+  },
+  {
+    "kind": "json",
+    "competitor": "BigQuery",
+    "source": "BigQuery TrustRadius proxy",
+    "sourceType": "TrustRadius",
+    "url": "/.netlify/functions/trustradius-bigquery",
+    "itemsPath": "items",
+    "titlePath": "title",
+    "summaryPath": "summary",
+    "linkPath": "url",
+    "datePath": "publishedAt"
+  },
+  {
+    "kind": "json",
+    "competitor": "Teradata",
+    "source": "Teradata TrustRadius proxy",
+    "sourceType": "TrustRadius",
+    "url": "/.netlify/functions/trustradius-teradata",
+    "itemsPath": "items",
+    "titlePath": "title",
+    "summaryPath": "summary",
+    "linkPath": "url",
+    "datePath": "publishedAt"
+  },
+  {
+    "kind": "json",
+    "competitor": "Databricks",
+    "source": "Databricks website diff proxy",
+    "sourceType": "Website change",
+    "url": "/.netlify/functions/webdiff-databricks",
+    "itemsPath": "items",
+    "titlePath": "title",
+    "summaryPath": "summary",
+    "linkPath": "url",
+    "datePath": "publishedAt"
+  },
+  {
+    "kind": "json",
+    "competitor": "Snowflake",
+    "source": "Snowflake pricing diff proxy",
+    "sourceType": "Website change",
+    "url": "/.netlify/functions/webdiff-snowflake-pricing",
+    "itemsPath": "items",
+    "titlePath": "title",
+    "summaryPath": "summary",
+    "linkPath": "url",
+    "datePath": "publishedAt"
+  }
+]

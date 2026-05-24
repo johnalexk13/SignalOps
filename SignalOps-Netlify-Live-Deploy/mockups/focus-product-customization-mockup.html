@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignalOps Focus Product Mock-up</title>
+  <style>
+    :root {
+      --blue-90: #0f3bbf;
+      --blue-70: #0f62fe;
+      --blue-20: #dbe8ff;
+      --ink-100: #102033;
+      --ink-70: #4e6078;
+      --ink-50: #708096;
+      --line: #d9e2ef;
+      --surface: #ffffff;
+      --surface-soft: #f6f9fd;
+      --green: #24a148;
+      --amber: #b7791f;
+      --purple: #8a3ffc;
+      --teal: #009d9a;
+      --shadow: 0 18px 40px rgba(15, 43, 74, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink-100);
+      background:
+        linear-gradient(120deg, rgba(15, 98, 254, 0.08), rgba(36, 161, 72, 0.1) 42%, rgba(138, 63, 252, 0.06)),
+        #eaf0f7;
+      font-family: Inter, "IBM Plex Sans", Arial, sans-serif;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .topbar {
+      color: #ffffff;
+      background: linear-gradient(135deg, #1737b7 0%, #1f6fff 100%);
+      padding: 14px 16px 22px;
+    }
+
+    .topbar-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 430px;
+      gap: 24px;
+      align-items: start;
+      max-width: 1460px;
+      margin: 0 auto;
+    }
+
+    .brand-row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .ibm-badge {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 50px;
+      height: 34px;
+      border-radius: 7px;
+      color: #12378f;
+      background: #eef5ff;
+      font-family: "IBM Plex Mono", Menlo, monospace;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+    }
+
+    .topbar h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .topbar-copy {
+      max-width: 820px;
+      margin: 10px 0 0;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+
+    .section-switcher {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .section-tab {
+      min-height: 36px;
+      padding: 8px 15px;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 18px;
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .section-tab.active {
+      color: var(--ink-100);
+      background: #ffffff;
+    }
+
+    .topbar-right {
+      display: grid;
+      gap: 10px;
+    }
+
+    .focus-product-button {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      min-height: 74px;
+      width: 100%;
+      padding: 12px 14px;
+      border: 0;
+      border-radius: 12px;
+      color: var(--ink-100);
+      background: #ffffff;
+      text-align: left;
+      box-shadow: 0 12px 28px rgba(4, 18, 52, 0.2);
+    }
+
+    .focus-product-button strong {
+      display: block;
+      margin-top: 5px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 18px;
+    }
+
+    .focus-product-button span {
+      display: block;
+      margin-top: 3px;
+      color: var(--ink-50);
+      font-size: 12px;
+    }
+
+    .switch-label {
+      min-height: 36px;
+      padding: 9px 13px;
+      border-radius: 8px;
+      color: var(--blue-90);
+      background: #edf4ff;
+      font-weight: 800;
+    }
+
+    .micro-label,
+    .panel-kicker,
+    .sidebar-label,
+    .table-label {
+      margin: 0;
+      font-size: 11px;
+      line-height: 1.2;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .micro-label,
+    .panel-kicker,
+    .sidebar-label {
+      color: var(--blue-70);
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .meta-card {
+      min-height: 66px;
+      padding: 12px;
+      border-radius: 11px;
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.14);
+    }
+
+    .meta-card .micro-label {
+      color: rgba(255, 255, 255, 0.74);
+    }
+
+    .meta-card strong {
+      display: block;
+      margin-top: 9px;
+      font-family: "IBM Plex Mono", Menlo, monospace;
+      font-size: 18px;
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: 230px minmax(0, 1fr);
+      gap: 24px;
+      max-width: 1460px;
+      margin: 16px auto;
+      padding: 0 16px 28px;
+    }
+
+    .sidebar,
+    .panel,
+    .summary-card,
+    .insight-card,
+    .metric-card,
+    .product-card,
+    .bundle-row,
+    .source-row,
+    .status-strip,
+    .hero-card {
+      background: var(--surface);
+      border: 1px solid rgba(15, 43, 74, 0.08);
+      box-shadow: var(--shadow);
+    }
+
+    .sidebar {
+      height: max-content;
+      position: sticky;
+      top: 16px;
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    .sidebar-block + .sidebar-block {
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+    }
+
+    .sidebar-label {
+      margin-bottom: 10px;
+    }
+
+    .nav-button {
+      display: block;
+      width: 100%;
+      min-height: 38px;
+      margin-top: 7px;
+      padding: 9px 11px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--ink-100);
+      background: #f8fbff;
+      text-align: left;
+    }
+
+    .nav-button.active {
+      color: #ffffff;
+      background: linear-gradient(135deg, var(--blue-90), var(--blue-70));
+      border-color: transparent;
+    }
+
+    .saved-mini {
+      display: grid;
+      gap: 8px;
+    }
+
+    .saved-mini div {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 9px 10px;
+      border-radius: 9px;
+      color: var(--ink-70);
+      background: #f3f7fb;
+      font-size: 13px;
+    }
+
+    main {
+      min-width: 0;
+    }
+
+    .page-section {
+      display: none;
+    }
+
+    .page-section.active {
+      display: grid;
+      gap: 16px;
+    }
+
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: flex-start;
+    }
+
+    .section-heading h2 {
+      margin: 6px 0 4px;
+      font-size: 30px;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .section-copy,
+    .field-help,
+    .muted {
+      margin: 0;
+      color: var(--ink-70);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+
+    .hero-card {
+      border-radius: 16px;
+      overflow: hidden;
+      color: #ffffff;
+      background: linear-gradient(135deg, #1238b7 0%, #2670ff 100%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.6fr);
+      gap: 18px;
+      padding: 18px;
+    }
+
+    .hero-card h3 {
+      margin: 12px 0 8px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+
+    .hero-card p {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .hero-side {
+      min-height: 160px;
+      padding: 18px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 5px 9px;
+      border-radius: 14px;
+      color: var(--ink-70);
+      background: #eef2f6;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .tag.blue { color: #003a8c; background: #dceaff; }
+    .tag.green { color: #0e6027; background: #dff7e8; }
+    .tag.amber { color: #8a5a00; background: #fff3c4; }
+    .tag.purple { color: #5b2db4; background: #efe5ff; }
+    .tag.teal { color: #006161; background: #d9fbf8; }
+
+    .panel {
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+    }
+
+    .panel h3 {
+      margin: 4px 0 0;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .primary-button,
+    .secondary-button {
+      min-height: 36px;
+      border: 0;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-weight: 800;
+    }
+
+    .primary-button {
+      color: #ffffff;
+      background: linear-gradient(135deg, var(--blue-90), var(--blue-70));
+      box-shadow: 0 8px 18px rgba(15, 98, 254, 0.22);
+    }
+
+    .secondary-button {
+      color: var(--blue-90);
+      background: #edf4ff;
+    }
+
+    .summary-grid,
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .summary-card,
+    .metric-card {
+      min-height: 128px;
+      border-radius: 13px;
+      padding: 14px;
+      box-shadow: none;
+    }
+
+    .metric-card strong {
+      display: block;
+      margin-top: 8px;
+      font-family: "IBM Plex Mono", Menlo, monospace;
+      font-size: 26px;
+      line-height: 1;
+      font-weight: 500;
+    }
+
+    .metric-card span {
+      display: block;
+      margin-top: 7px;
+      color: var(--ink-70);
+      line-height: 1.45;
+      font-size: 13px;
+    }
+
+    .insight-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .insight-card {
+      min-height: 220px;
+      border-radius: 13px;
+      padding: 14px;
+      box-shadow: none;
+    }
+
+    .insight-card h4 {
+      margin: 10px 0 24px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .insight-card p + p {
+      margin-top: 14px;
+    }
+
+    .placeholder-page {
+      min-height: 420px;
+      align-content: start;
+    }
+
+    .layout-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.96fr) minmax(0, 1.04fr);
+      gap: 16px;
+      align-items: start;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .field-wide {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--ink-70);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    input,
+    select {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      padding: 9px 10px;
+      color: var(--ink-100);
+      background: #f9fbff;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    .form-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-top: 14px;
+    }
+
+    .toast {
+      display: none;
+      color: #0e6027;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .toast.visible {
+      display: inline;
+    }
+
+    .bundle-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .bundle-row {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: none;
+    }
+
+    .bundle-icon {
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      color: #ffffff;
+      background: var(--blue-70);
+      font-weight: 800;
+    }
+
+    .bundle-row:nth-child(2) .bundle-icon { background: var(--green); }
+    .bundle-row:nth-child(3) .bundle-icon { background: var(--amber); }
+    .bundle-row:nth-child(4) .bundle-icon { background: var(--purple); }
+
+    .bundle-row h4 {
+      margin: 0 0 3px;
+      font-size: 15px;
+      letter-spacing: 0;
+    }
+
+    .check-pill {
+      min-width: 84px;
+      padding: 7px 9px;
+      border-radius: 14px;
+      color: #0e6027;
+      background: #dff7e8;
+      font-size: 12px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .product-library-panel {
+      scroll-margin-top: 16px;
+    }
+
+    .product-library-panel.pulse {
+      outline: 3px solid rgba(15, 98, 254, 0.28);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .product-card {
+      border-radius: 12px;
+      padding: 14px;
+      box-shadow: none;
+      text-align: left;
+      color: var(--ink-100);
+    }
+
+    .product-card.active {
+      border-color: rgba(15, 98, 254, 0.48);
+      background: linear-gradient(180deg, #f7fbff, #ffffff);
+    }
+
+    .product-card h4 {
+      margin: 8px 0 5px;
+      font-size: 17px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .status-strip {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      border-left: 4px solid var(--green);
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+
+    .source-table {
+      display: grid;
+      gap: 8px;
+    }
+
+    .source-row {
+      display: grid;
+      grid-template-columns: 160px minmax(0, 1fr) 120px;
+      gap: 12px;
+      align-items: center;
+      border-radius: 11px;
+      padding: 10px 12px;
+      box-shadow: none;
+      font-size: 13px;
+    }
+
+    .source-row.header {
+      color: var(--ink-50);
+      background: transparent;
+      border-color: transparent;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 11px;
+    }
+
+    .source-row strong {
+      overflow-wrap: anywhere;
+    }
+
+    .chart-panel {
+      display: grid;
+      gap: 12px;
+    }
+
+    .bar-chart {
+      display: grid;
+      grid-template-columns: 70px repeat(6, 1fr);
+      gap: 12px;
+      align-items: end;
+      min-height: 230px;
+      padding: 10px 8px 0;
+    }
+
+    .axis {
+      display: grid;
+      height: 200px;
+      color: var(--ink-50);
+      font-size: 12px;
+      align-content: space-between;
+    }
+
+    .bar-item {
+      display: grid;
+      gap: 8px;
+      justify-items: center;
+    }
+
+    .bar-stack {
+      display: grid;
+      align-content: end;
+      width: 54px;
+      height: 200px;
+      background: #edf2f8;
+    }
+
+    .bar-pos { background: #2fb463; }
+    .bar-neu { background: #b7c0cb; }
+    .bar-neg { background: #fa4d45; }
+
+    .bar-label {
+      color: var(--ink-70);
+      font-size: 12px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .library-note {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 12px;
+      background: #f3f8ff;
+      color: var(--ink-70);
+      font-size: 13px;
+    }
+
+    @media (max-width: 980px) {
+      .topbar-grid,
+      .workspace,
+      .layout-grid,
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .summary-grid,
+      .metric-grid,
+      .insight-grid,
+      .product-grid,
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .source-row,
+      .bundle-row,
+      .status-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .bar-chart {
+        grid-template-columns: 1fr;
+      }
+
+      .axis {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-grid">
+      <div>
+        <div class="brand-row">
+          <div class="ibm-badge">IBM</div>
+          <div>
+            <h1>SignalOps: Market & Community Intelligence Platform</h1>
+            <p class="topbar-copy" id="topbarCopy">Compare the focus product with its competitor set, curate source feeds, and turn market activity into content, PMM asset, product, and positioning actions.</p>
+          </div>
+        </div>
+        <div class="section-switcher" role="tablist" aria-label="Workspace sections">
+          <button class="section-tab active" type="button" data-section-tab="competitive">Competitive Intelligence</button>
+          <button class="section-tab" type="button" data-section-tab="community">Community Intelligence</button>
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <button class="focus-product-button" type="button" id="focusProductButton" aria-label="Open focus product library">
+          <span>
+            <span class="micro-label">Focus Product</span>
+            <strong id="focusProductName">IBM Netezza</strong>
+            <span id="focusProductStatus">Saved workspace: Apr 30, 2026, 7:24 PM</span>
+          </span>
+          <span class="switch-label">Switch</span>
+        </button>
+        <div class="meta-grid">
+          <article class="meta-card">
+            <p class="micro-label">Saved Products</p>
+            <strong id="savedProductsCount">3</strong>
+          </article>
+          <article class="meta-card">
+            <p class="micro-label">Insight Types</p>
+            <strong>5</strong>
+          </article>
+          <article class="meta-card">
+            <p class="micro-label">Source Feeds</p>
+            <strong id="sourceCount">55</strong>
+          </article>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="workspace">
+    <aside class="sidebar">
+      <div class="sidebar-block">
+        <p class="sidebar-label">Pages</p>
+        <div id="pageNav"></div>
+      </div>
+      <div class="sidebar-block" id="savedProductMiniBlock">
+        <p class="sidebar-label">Saved Focus Products</p>
+        <div class="saved-mini" id="savedMiniList"></div>
+      </div>
+      <div class="sidebar-block">
+        <p class="sidebar-label" id="sidebarNoteTitle">Workspace behavior</p>
+        <p class="section-copy" id="sidebarNote">Source URLs, competitors, insights, filters, and community settings are saved as part of the active focus product workspace.</p>
+      </div>
+    </aside>
+
+    <main>
+      <section class="page-section active" id="page-overview">
+        <div class="section-heading">
+          <div>
+            <p class="panel-kicker">Overview</p>
+            <h2>High-level product marketing insight system</h2>
+            <p class="section-copy">A single workspace for comparing the focus product with the competitor set across content, PMM actions, social and review signals, product gaps, and positioning strength.</p>
+          </div>
+        </div>
+
+        <article class="hero-card">
+          <div class="hero-grid">
+            <div>
+              <p class="panel-kicker" style="color: rgba(255,255,255,0.82)">Marketing cockpit</p>
+              <h3>Turn competitor activity into focus-product moves</h3>
+              <p class="section-copy">This overview remains the normal Competitive Intelligence landing page. Product switching is handled from Manage, while this page keeps the stakeholder dashboard structure intact.</p>
+              <div class="tag-row">
+                <span class="tag blue" id="overviewCompetitorTag">6 competitors tracked</span>
+                <span class="tag blue" id="overviewSourceTag">55 source feeds in scope</span>
+                <span class="tag blue">Persistent source editing</span>
+                <span class="tag blue">Overview + dedicated pages</span>
+              </div>
+            </div>
+            <div class="hero-side">
+              <strong>Current focus product</strong>
+              <p class="section-copy" id="heroFocusCopy">IBM Netezza is active. Use the Focus Product control in the top-right corner to switch saved workspaces.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="panel-kicker">Overview insights</p>
+              <h3>Top insight from each section</h3>
+            </div>
+          </div>
+          <div class="insight-grid">
+            <article class="insight-card">
+              <span class="tag blue">Insight Type 1</span>
+              <h4>Content Suggestions</h4>
+              <p class="section-copy"><strong>Current insight:</strong> Publish a hybrid-first counter to AI platform sprawl.</p>
+              <p class="section-copy">Use competitor thought leadership and product pages to identify what the active focus product should publish next.</p>
+              <div class="tag-row"><span class="tag blue">Content</span><span class="tag">High priority</span></div>
+            </article>
+            <article class="insight-card">
+              <span class="tag green">Insight Type 2</span>
+              <h4>PMM action centre</h4>
+              <p class="section-copy"><strong>Current insight:</strong> Create the next battle card and response asset for the highest-pressure competitor.</p>
+              <p class="section-copy">Saved product workspaces keep PMM actions linked to the exact product, competitor set, and source bundle.</p>
+              <div class="tag-row"><span class="tag green">Assets</span><span class="tag">Urgent</span></div>
+            </article>
+            <article class="insight-card">
+              <span class="tag amber">Insight Type 3</span>
+              <h4>Market Signals</h4>
+              <p class="section-copy"><strong>Current insight:</strong> Track current social, review, blog, and website signals for the active product.</p>
+              <p class="section-copy">Returning to a saved product restores the market signal snapshot and its source context.</p>
+              <div class="tag-row"><span class="tag amber">Signals</span><span class="tag">Live snapshot</span></div>
+            </article>
+            <article class="insight-card">
+              <span class="tag purple">Insight Type 4</span>
+              <h4>Product Suggestions</h4>
+              <p class="section-copy"><strong>Current insight:</strong> Keep product gaps and roadmap suggestions tied to the selected focus product.</p>
+              <p class="section-copy">Each saved workspace carries its own capability matrix, product sources, and PMM-ready recommendations.</p>
+              <div class="tag-row"><span class="tag purple">Roadmap</span><span class="tag">Product linked</span></div>
+            </article>
+          </div>
+        </article>
+
+        <section class="metric-grid">
+          <article class="metric-card">
+            <p class="panel-kicker">Competitors tracked</p>
+            <strong id="metricCompetitors">6</strong>
+            <span id="metricCompetitorCopy">Warehouse competitor set</span>
+          </article>
+          <article class="metric-card">
+            <p class="panel-kicker">Insight types</p>
+            <strong>5</strong>
+            <span>Content, PMM, market, product, positioning</span>
+          </article>
+          <article class="metric-card">
+            <p class="panel-kicker">Source feeds</p>
+            <strong id="metricSources">55</strong>
+            <span>Saved with the focus product workspace</span>
+          </article>
+          <article class="metric-card">
+            <p class="panel-kicker">Top threat</p>
+            <strong id="metricThreat">Databricks</strong>
+            <span id="metricThreatCopy">AI + lakehouse consolidation</span>
+          </article>
+        </section>
+
+        <article class="panel chart-panel">
+          <div class="panel-header">
+            <div>
+              <p class="panel-kicker">Competitive sentiment</p>
+              <h3>Competitive sentiment - G2 & TrustRadius</h3>
+            </div>
+            <button class="secondary-button" type="button" data-page-jump="market">Full Report</button>
+          </div>
+          <div class="bar-chart" aria-label="Sentiment chart">
+            <div class="axis"><span>100%</span><span>80%</span><span>60%</span><span>40%</span><span>20%</span><span>0%</span></div>
+            <div class="bar-item"><div class="bar-stack"><div class="bar-neg" style="height: 11%"></div><div class="bar-neu" style="height: 15%"></div><div class="bar-pos" style="height: 74%"></div></div><span class="bar-label">Focus</span></div>
+            <div class="bar-item"><div class="bar-stack"><div class="bar-neg" style="height: 15%"></div><div class="bar-neu" style="height: 17%"></div><div class="bar-pos" style="height: 68%"></div></div><span class="bar-label">Databricks</span></div>
+            <div class="bar-item"><div class="bar-stack"><div class="bar-neg" style="height: 10%"></div><div class="bar-neu" style="height: 15%"></div><div class="bar-pos" style="height: 75%"></div></div><span class="bar-label">Snowflake</span></div>
+            <div class="bar-item"><div class="bar-stack"><div class="bar-neg" style="height: 18%"></div><div class="bar-neu" style="height: 20%"></div><div class="bar-pos" style="height: 62%"></div></div><span class="bar-label">Redshift</span></div>
+            <div class="bar-item"><div class="bar-stack"><div class="bar-neg" style="height: 12%"></div><div class="bar-neu" style="height: 18%"></div><div class="bar-pos" style="height: 70%"></div></div><span class="bar-label">BigQuery</span></div>
+            <div class="bar-item"><div class="bar-stack"><div class="bar-neg" style="height: 22%"></div><div class="bar-neu" style="height: 18%"></div><div class="bar-pos" style="height: 60%"></div></div><span class="bar-label">Teradata</span></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="page-section placeholder-page" id="page-content"></section>
+      <section class="page-section placeholder-page" id="page-events"></section>
+      <section class="page-section placeholder-page" id="page-market"></section>
+      <section class="page-section placeholder-page" id="page-product"></section>
+      <section class="page-section placeholder-page" id="page-positioning"></section>
+
+      <section class="page-section" id="page-manage">
+        <div class="section-heading">
+          <div>
+            <p class="panel-kicker">Workspace controls</p>
+            <h2>Manage</h2>
+            <p class="section-copy">Maintain the focus product, saved product library, source bundle, and restore behavior from one place.</p>
+          </div>
+          <button class="primary-button" type="button" id="saveTopButton">Save product workspace</button>
+        </div>
+
+        <article class="status-strip">
+          <div>
+            <strong id="statusTitle">IBM Netezza workspace is ready</strong>
+            <p class="section-copy" id="statusCopy">Product profile, competitor list, 55 source feeds, generated insights, and community settings are stored together.</p>
+          </div>
+          <span class="tag green">Version saved</span>
+        </article>
+
+        <section class="layout-grid">
+          <article class="panel">
+            <div class="panel-header">
+              <div>
+                <p class="panel-kicker">Focus product setup</p>
+                <h3>Product profile saved with the workspace</h3>
+              </div>
+            </div>
+            <div class="form-grid">
+              <label>
+                Focus product name
+                <input id="productInput" type="text" value="IBM Netezza">
+              </label>
+              <label>
+                Product family
+                <select id="familyInput">
+                  <option selected>Data and AI</option>
+                  <option>Automation</option>
+                  <option>Security</option>
+                  <option>Infrastructure</option>
+                </select>
+              </label>
+              <label class="field-wide">
+                Product URL
+                <input id="urlInput" type="text" value="https://www.ibm.com/products/netezza">
+              </label>
+              <label class="field-wide">
+                Primary buyer
+                <input id="buyerInput" type="text" value="Data leaders, platform owners, analytics teams">
+              </label>
+            </div>
+            <div class="form-actions">
+              <button class="primary-button" type="button" id="saveButton">Save product workspace</button>
+              <button class="secondary-button" type="button" id="saveAsButton">Save as new product</button>
+              <span class="toast" id="saveToast">Saved just now</span>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <div>
+                <p class="panel-kicker">Workspace bundle</p>
+                <h3>Data saved behind each focus product</h3>
+              </div>
+            </div>
+            <div class="bundle-list">
+              <article class="bundle-row">
+                <div class="bundle-icon">P</div>
+                <div>
+                  <h4>Product profile and positioning baseline</h4>
+                  <p class="field-help">Name, product URL, audience, category, message pillars, and owned IBM sources.</p>
+                </div>
+                <span class="check-pill">Saved</span>
+              </article>
+              <article class="bundle-row">
+                <div class="bundle-icon">S</div>
+                <div>
+                  <h4>Competitors and monitoring sources</h4>
+                  <p class="field-help">Competitor set, source URLs, source types, filters, and edited source rows.</p>
+                </div>
+                <span class="check-pill">Saved</span>
+              </article>
+              <article class="bundle-row">
+                <div class="bundle-icon">I</div>
+                <div>
+                  <h4>Generated insights and PMM actions</h4>
+                  <p class="field-help">Snapshot of content ideas, PMM assets, market signals, product gaps, and positioning.</p>
+                </div>
+                <span class="check-pill">Saved</span>
+              </article>
+              <article class="bundle-row">
+                <div class="bundle-icon">C</div>
+                <div>
+                  <h4>Community intelligence settings</h4>
+                  <p class="field-help">Keywords, platforms, target community pages, and last refresh metadata.</p>
+                </div>
+                <span class="check-pill">Saved</span>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <article class="panel product-library-panel" id="productLibrary">
+          <div class="panel-header">
+            <div>
+              <p class="panel-kicker">Product library</p>
+              <h3>Restore a saved focus product</h3>
+              <p class="section-copy">This is the library destination opened by the top-right Focus Product control.</p>
+            </div>
+            <button class="secondary-button" type="button" id="newProductButton">New focus product</button>
+          </div>
+          <div class="product-grid" id="productCards"></div>
+          <div class="library-note">
+            <span>Opening a saved product restores its product profile, source feeds, insight snapshots, filters, and community settings.</span>
+            <span class="tag blue">One-click restore</span>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="panel-kicker">Source preview</p>
+              <h3 id="sourceHeading">Sources linked to IBM Netezza</h3>
+            </div>
+            <button class="secondary-button" type="button">Manage sources</button>
+          </div>
+          <div class="source-table" id="sourceTable"></div>
+        </article>
+      </section>
+
+      <section class="page-section placeholder-page" id="page-community-announcements"></section>
+      <section class="page-section placeholder-page" id="page-community-thought-leadership"></section>
+      <section class="page-section placeholder-page" id="page-community-replies"></section>
+      <section class="page-section placeholder-page" id="page-community-manage"></section>
+    </main>
+  </div>
+
+  <script>
+    const competitivePages = [
+      ["overview", "Overview"],
+      ["content", "Content Suggestions"],
+      ["events", "PMM action centre"],
+      ["market", "Market Signals"],
+      ["product", "Product Suggestions"],
+      ["positioning", "Positioning"],
+      ["manage", "Manage"]
+    ];
+
+    const communityPages = [
+      ["community-announcements", "Best for announcements"],
+      ["community-thought-leadership", "Best for thought leadership"],
+      ["community-replies", "Best for direct engagement replies"],
+      ["community-manage", "Manage"]
+    ];
+
+    const products = {
+      "IBM Netezza": {
+        display: "IBM Netezza",
+        short: "Netezza",
+        copy: "Hybrid data warehouse focus",
+        family: "Data and AI",
+        sources: 55,
+        competitors: 6,
+        community: 17,
+        threat: "Databricks",
+        threatCopy: "AI + lakehouse consolidation",
+        url: "https://www.ibm.com/products/netezza",
+        buyer: "Data leaders, platform owners, analytics teams",
+        rows: [
+          ["Owned", "IBM Netezza product page"],
+          ["Competitor", "Databricks data warehousing page"],
+          ["Review", "G2 and TrustRadius review snapshots"]
+        ]
+      },
+      "IBM watsonx.data": {
+        display: "IBM watsonx.data",
+        short: "watsonx.data",
+        copy: "Lakehouse and governed data platform focus",
+        family: "Data and AI",
+        sources: 42,
+        competitors: 5,
+        community: 15,
+        threat: "Snowflake",
+        threatCopy: "Data cloud and Cortex narrative",
+        url: "https://www.ibm.com/products/watsonx-data",
+        buyer: "Data platform leaders, AI teams, governance owners",
+        rows: [
+          ["Owned", "IBM watsonx.data product page"],
+          ["Competitor", "Databricks and Snowflake lakehouse pages"],
+          ["Community", "Lakehouse, Iceberg, and open table discussions"]
+        ]
+      },
+      "IBM Db2 Warehouse": {
+        display: "IBM Db2 Warehouse",
+        short: "Db2 Warehouse",
+        copy: "Cloud warehouse and analytics focus",
+        family: "Data and AI",
+        sources: 38,
+        competitors: 5,
+        community: 12,
+        threat: "Amazon Redshift",
+        threatCopy: "AWS-native default positioning",
+        url: "https://www.ibm.com/products/db2-warehouse",
+        buyer: "Database leaders, application owners, cloud analytics teams",
+        rows: [
+          ["Owned", "IBM Db2 Warehouse product page"],
+          ["Competitor", "Amazon Redshift and BigQuery pages"],
+          ["Review", "Cloud warehouse review and migration sources"]
+        ]
+      }
+    };
+
+    let activeSection = "competitive";
+    let activePageBySection = {
+      competitive: "overview",
+      community: "community-announcements"
+    };
+    let activeProductName = "IBM Netezza";
+
+    const pageNav = document.querySelector("#pageNav");
+    const focusProductName = document.querySelector("#focusProductName");
+    const focusProductStatus = document.querySelector("#focusProductStatus");
+    const savedProductsCount = document.querySelector("#savedProductsCount");
+    const sourceCount = document.querySelector("#sourceCount");
+    const savedMiniList = document.querySelector("#savedMiniList");
+    const productCards = document.querySelector("#productCards");
+    const productInput = document.querySelector("#productInput");
+    const familyInput = document.querySelector("#familyInput");
+    const urlInput = document.querySelector("#urlInput");
+    const buyerInput = document.querySelector("#buyerInput");
+    const statusTitle = document.querySelector("#statusTitle");
+    const statusCopy = document.querySelector("#statusCopy");
+    const sourceHeading = document.querySelector("#sourceHeading");
+    const sourceTable = document.querySelector("#sourceTable");
+    const saveToast = document.querySelector("#saveToast");
+    const productLibrary = document.querySelector("#productLibrary");
+
+    function currentPages() {
+      return activeSection === "community" ? communityPages : competitivePages;
+    }
+
+    function renderNav() {
+      pageNav.innerHTML = currentPages().map(([id, label]) => {
+        const active = activePageBySection[activeSection] === id ? " active" : "";
+        return `<button class="nav-button${active}" type="button" data-page="${id}">${label}</button>`;
+      }).join("");
+    }
+
+    function renderSavedMini() {
+      savedMiniList.innerHTML = Object.keys(products).map((name) => {
+        const state = name === activeProductName ? "Active" : "Saved";
+        return `<div><span>${products[name].short}</span><strong>${state}</strong></div>`;
+      }).join("");
+      savedProductsCount.textContent = String(Object.keys(products).length);
+    }
+
+    function renderProductCards() {
+      productCards.innerHTML = Object.keys(products).map((name) => {
+        const product = products[name];
+        const active = name === activeProductName ? " active" : "";
+        const state = name === activeProductName ? "Current" : "Saved";
+        return `
+          <button class="product-card${active}" type="button" data-product="${name}">
+            <p class="table-label">${state}</p>
+            <h4>${product.display}</h4>
+            <p class="section-copy">${product.copy}.</p>
+            <div class="tag-row">
+              <span class="tag green">${product.sources} sources</span>
+              <span class="tag">5 insight types</span>
+              <span class="tag amber">${product.community} community settings</span>
+            </div>
+          </button>
+        `;
+      }).join("");
+    }
+
+    function renderSourceTable(product) {
+      sourceTable.innerHTML = `
+        <div class="source-row header"><span>Type</span><span>Source</span><span>Status</span></div>
+        ${product.rows.map(([type, source]) => `
+          <div class="source-row">
+            <span>${type}</span>
+            <strong>${source}</strong>
+            <span class="tag green">Saved</span>
+          </div>
+        `).join("")}
+      `;
+    }
+
+    function setProduct(name, saveState = "Saved workspace: Apr 30, 2026, 7:24 PM") {
+      const product = products[name];
+      if (!product) return;
+
+      activeProductName = name;
+      focusProductName.textContent = product.display;
+      focusProductStatus.textContent = saveState;
+      sourceCount.textContent = String(product.sources);
+      document.querySelector("#overviewSourceTag").textContent = `${product.sources} source feeds in scope`;
+      document.querySelector("#overviewCompetitorTag").textContent = `${product.competitors} competitors tracked`;
+      document.querySelector("#heroFocusCopy").textContent = `${product.display} is active. Use the Focus Product control in the top-right corner to switch saved workspaces.`;
+      document.querySelector("#metricCompetitors").textContent = String(product.competitors);
+      document.querySelector("#metricCompetitorCopy").textContent = `${product.short} competitor set`;
+      document.querySelector("#metricSources").textContent = String(product.sources);
+      document.querySelector("#metricThreat").textContent = product.threat;
+      document.querySelector("#metricThreatCopy").textContent = product.threatCopy;
+
+      productInput.value = product.display;
+      familyInput.value = product.family;
+      urlInput.value = product.url;
+      buyerInput.value = product.buyer;
+      statusTitle.textContent = `${product.display} workspace is ready`;
+      statusCopy.textContent = `Product profile, competitor list, ${product.sources} source feeds, generated insights, and community settings are stored together.`;
+      sourceHeading.textContent = `Sources linked to ${product.display}`;
+      renderSourceTable(product);
+      renderSavedMini();
+      renderProductCards();
+    }
+
+    function switchSection(section) {
+      activeSection = section === "community" ? "community" : "competitive";
+      document.querySelectorAll("[data-section-tab]").forEach((button) => {
+        button.classList.toggle("active", button.dataset.sectionTab === activeSection);
+      });
+      document.querySelector("#topbarCopy").textContent = activeSection === "community"
+        ? "Identify the right communities and groups to engage with the active focus product at the right moment."
+        : "Compare the focus product with its competitor set, curate source feeds, and turn market activity into content, PMM asset, product, and positioning actions.";
+      document.querySelector("#sidebarNoteTitle").textContent = activeSection === "community" ? "Engagement model" : "Workspace behavior";
+      document.querySelector("#sidebarNote").textContent = activeSection === "community"
+        ? "Community keywords, platforms, target pages, and last refresh data are saved with the active focus product."
+        : "Source URLs, competitors, insights, filters, and community settings are saved as part of the active focus product workspace.";
+      renderNav();
+      switchPage(activePageBySection[activeSection]);
+    }
+
+    function switchPage(pageId) {
+      activePageBySection[activeSection] = pageId;
+      document.querySelectorAll(".page-section").forEach((section) => {
+        section.classList.toggle("active", section.id === `page-${pageId}`);
+      });
+      document.querySelectorAll("[data-page]").forEach((button) => {
+        button.classList.toggle("active", button.dataset.page === pageId);
+      });
+      renderPlaceholder(pageId);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function renderPlaceholder(pageId) {
+      const section = document.querySelector(`#page-${pageId}`);
+      if (!section || pageId === "overview" || pageId === "manage") return;
+
+      const label = [...competitivePages, ...communityPages].find(([id]) => id === pageId)?.[1] || "Page";
+      const product = products[activeProductName];
+      section.innerHTML = `
+        <div class="section-heading">
+          <div>
+            <p class="panel-kicker">Mock-up page</p>
+            <h2>${label}</h2>
+            <p class="section-copy">This page keeps the existing dashboard page model. The active focus product is ${product.display}, and its saved source bundle would drive the insights shown here.</p>
+          </div>
+        </div>
+        <section class="metric-grid">
+          <article class="metric-card"><p class="panel-kicker">Focus product</p><strong>${product.short}</strong><span>${product.copy}</span></article>
+          <article class="metric-card"><p class="panel-kicker">Source feeds</p><strong>${product.sources}</strong><span>Restored with this product</span></article>
+          <article class="metric-card"><p class="panel-kicker">Competitors</p><strong>${product.competitors}</strong><span>Saved competitor context</span></article>
+          <article class="metric-card"><p class="panel-kicker">Library state</p><strong>Saved</strong><span>Switch from top-right focus product control</span></article>
+        </section>
+        <article class="panel">
+          <div class="panel-header"><div><p class="panel-kicker">Behavior note</p><h3>No Product Library tab added here</h3></div></div>
+          <p class="section-copy">The Product Library is intentionally part of Manage only. The top-right Focus Product button is the shortcut for switching products.</p>
+        </article>
+      `;
+    }
+
+    function saveWorkspace(asNew = false) {
+      const name = productInput.value.trim() || "Untitled IBM product";
+      const existing = products[activeProductName] || products["IBM Netezza"];
+      if (asNew || !products[name]) {
+        products[name] = {
+          ...existing,
+          display: name,
+          short: name.replace(/^IBM\\s+/i, ""),
+          family: familyInput.value,
+          url: urlInput.value,
+          buyer: buyerInput.value,
+          rows: [
+            ["Owned", `${name} product page`],
+            ["Competitor", "Competitor source bundle copied from current workspace"],
+            ["Insight", "Generated insight snapshot saved with this product"]
+          ]
+        };
+      } else {
+        products[name] = {
+          ...products[name],
+          family: familyInput.value,
+          url: urlInput.value,
+          buyer: buyerInput.value
+        };
+      }
+      setProduct(name, "Saved workspace: just now");
+      saveToast.textContent = asNew ? "Saved as new product" : "Saved just now";
+      saveToast.classList.add("visible");
+      window.setTimeout(() => saveToast.classList.remove("visible"), 1800);
+    }
+
+    pageNav.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-page]");
+      if (!button) return;
+      switchPage(button.dataset.page);
+    });
+
+    document.querySelectorAll("[data-section-tab]").forEach((button) => {
+      button.addEventListener("click", () => switchSection(button.dataset.sectionTab));
+    });
+
+    document.querySelectorAll("[data-page-jump]").forEach((button) => {
+      button.addEventListener("click", () => switchPage(button.dataset.pageJump));
+    });
+
+    document.querySelector("#focusProductButton").addEventListener("click", () => {
+      switchSection("competitive");
+      switchPage("manage");
+      window.setTimeout(() => {
+        productLibrary.scrollIntoView({ behavior: "smooth", block: "start" });
+        productLibrary.classList.add("pulse");
+        window.setTimeout(() => productLibrary.classList.remove("pulse"), 1200);
+      }, 180);
+    });
+
+    productCards.addEventListener("click", (event) => {
+      const card = event.target.closest("[data-product]");
+      if (!card) return;
+      setProduct(card.dataset.product, "Restored workspace: just now");
+    });
+
+    document.querySelector("#saveButton").addEventListener("click", () => saveWorkspace(false));
+    document.querySelector("#saveTopButton").addEventListener("click", () => saveWorkspace(false));
+    document.querySelector("#saveAsButton").addEventListener("click", () => saveWorkspace(true));
+    document.querySelector("#newProductButton").addEventListener("click", () => {
+      productInput.value = "IBM ";
+      urlInput.value = "";
+      buyerInput.value = "";
+      productInput.focus();
+    });
+
+    renderNav();
+    setProduct(activeProductName);
+  </script>
+</body>
+</html>
