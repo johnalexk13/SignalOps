@@ -1,19 +1,18 @@
 {
   "meta": {
-    "status": "Stakeholder snapshot",
-    "lastUpdated": "2026-04-28T07:08:39.297Z",
+    "status": "Fallback snapshot",
+    "lastUpdated": "2026-05-23T13:22:57.438Z",
     "activeSources": 0,
     "totalSources": 28,
     "failedSources": 28,
     "persistedSnapshotAt": null,
     "mode": "snapshot",
-    "generatedAt": "2026-04-28T07:08:39.300Z",
-    "deliveryMode": "static-snapshot"
+    "generatedAt": "2026-05-23T13:22:57.445Z"
   },
   "marketFeed": {
     "meta": {
       "status": "Fallback snapshot",
-      "lastUpdated": "2026-04-28T07:08:39.297Z",
+      "lastUpdated": "2026-05-23T13:22:57.438Z",
       "activeSources": 0,
       "totalSources": 28,
       "failedSources": 28,
@@ -29,10 +28,12 @@
         "sourceBadge": "LINKEDIN",
         "sourceUrl": "https://www.linkedin.com/company/databricks",
         "actionLabel": "Open LinkedIn",
-        "summary": "Databricks is actively telling the market that warehouse modernization value comes from consolidation, governed AI, and faster legacy decommissioning. That is a direct strike at Netezza-style enterprise estates.",
+        "summary": "Databricks is telling the market that lakehouse consolidation, governed AI, and migration velocity belong in one platform. Netezza should not fight the lakehouse idea; it should show why lakehouses still need a performant warehouse engine for governed BI and repeat analytics.",
         "publishedAt": "2026-04-18T12:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "10 days ago",
+        "freshnessLabel": "35 days ago",
         "dateLabel": "Apr 18, 2026"
       },
       {
@@ -44,10 +45,12 @@
         "sourceBadge": "LINKEDIN",
         "sourceUrl": "https://www.linkedin.com/company/teradata",
         "actionLabel": "Open LinkedIn",
-        "summary": "Teradata is loudly attaching agentic AI outcomes to hard ROI and lower operating cost. That message competes directly with Netezza in enterprise accounts that care about governed AI plus control.",
+        "summary": "Teradata is attaching agentic AI outcomes to enterprise-scale analytics and operating cost. Netezza should answer with faster proof that lakehouse data needs a governed, performant warehouse engine before AI claims become credible.",
         "publishedAt": "2026-04-18T11:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "10 days ago",
+        "freshnessLabel": "35 days ago",
         "dateLabel": "Apr 18, 2026"
       },
       {
@@ -61,8 +64,10 @@
         "actionLabel": "Open page",
         "summary": "Snowflake's migration page openly promises low-risk modernization with free AI-powered tools. This is a clear install-base capture play against on-prem and legacy warehouse customers.",
         "publishedAt": "2026-04-18T09:15:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "10 days ago",
+        "freshnessLabel": "35 days ago",
         "dateLabel": "Apr 18, 2026"
       },
       {
@@ -74,10 +79,12 @@
         "sourceBadge": "WEBSITE",
         "sourceUrl": "https://aws.amazon.com/redshift/features/",
         "actionLabel": "Open page",
-        "summary": "Redshift's feature page is leaning on price performance, lakehouse SQL, and near-real-time analytics. The AWS message is trying to make cloud-native scale feel like the obvious default.",
+        "summary": "Redshift's feature page is leaning on price performance, lakehouse SQL, and near-real-time analytics. Netezza should respond by proving why open lakehouse architectures still need governed, high-performance warehouse execution outside a single-cloud default.",
         "publishedAt": "2026-04-18T09:10:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "10 days ago",
+        "freshnessLabel": "35 days ago",
         "dateLabel": "Apr 18, 2026"
       },
       {
@@ -91,8 +98,10 @@
         "actionLabel": "Open page",
         "summary": "Microsoft is using the Synapse page to funnel buyers toward Fabric migration. That weakens Synapse's standalone identity and gives Netezza a chance to frame focus as a strength.",
         "publishedAt": "2026-04-18T09:05:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "10 days ago",
+        "freshnessLabel": "35 days ago",
         "dateLabel": "Apr 18, 2026"
       },
       {
@@ -104,10 +113,12 @@
         "sourceBadge": "LINKEDIN",
         "sourceUrl": "https://www.linkedin.com/company/snowflake-computing",
         "actionLabel": "Open LinkedIn",
-        "summary": "Snowflake keeps using customer proof to turn migration and enterprise AI into an ease-of-adoption story. That threatens Netezza whenever buyers want cloud progress without operational friction.",
+        "summary": "Snowflake keeps using customer proof to connect migration, enterprise AI, and managed warehouse execution. Netezza should counter with lakehouse-ready performance, cost governance, and hybrid control for teams that need predictable execution.",
         "publishedAt": "2026-04-18T08:30:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "10 days ago",
+        "freshnessLabel": "35 days ago",
         "dateLabel": "Apr 18, 2026"
       },
       {
@@ -119,10 +130,12 @@
         "sourceBadge": "WEBSITE",
         "sourceUrl": "https://docs.databricks.com/aws/en/release-notes/product/2026/april",
         "actionLabel": "Open release notes",
-        "summary": "Databricks is expanding migration connectors and AI governance in the same release wave. Netezza should treat this as a coordinated modernization plus trust narrative, not a random feature drop.",
+        "summary": "Databricks is expanding migration connectors and AI governance in the same release wave. Netezza should treat this as a lakehouse-modernization trigger and answer with performance-engine proof for governed SQL workloads.",
         "publishedAt": "2026-04-17T10:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "11 days ago",
+        "freshnessLabel": "36 days ago",
         "dateLabel": "Apr 17, 2026"
       },
       {
@@ -134,10 +147,12 @@
         "sourceBadge": "G2",
         "sourceUrl": "https://www.g2.com/products/databricks-data-intelligence-platform/reviews",
         "actionLabel": "View G2",
-        "summary": "Databricks reviews still celebrate breadth and collaboration, but complexity and price keep surfacing. Netezza should hit ease, operating clarity, and lower architecture burden much harder.",
+        "summary": "Databricks reviews still celebrate breadth and collaboration, but complexity and price keep surfacing. Netezza should position as the focused warehouse execution layer that lowers operating friction inside a broader lakehouse strategy.",
         "publishedAt": "2026-04-16T10:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "12 days ago",
+        "freshnessLabel": "37 days ago",
         "dateLabel": "Apr 16, 2026"
       },
       {
@@ -151,8 +166,10 @@
         "actionLabel": "View G2",
         "summary": "Snowflake's review motion still combines speed and usability with cost pressure. Netezza should press on predictable economics before Snowflake's UX halo dominates the deal.",
         "publishedAt": "2026-04-15T10:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "13 days ago",
+        "freshnessLabel": "38 days ago",
         "dateLabel": "Apr 15, 2026"
       },
       {
@@ -164,10 +181,12 @@
         "sourceBadge": "BLOG",
         "sourceUrl": "https://www.teradata.com/Blogs/RSS",
         "actionLabel": "Open blog",
-        "summary": "Teradata's content and social footprint continue to wrap hybrid control and AI scale into one platform story. Netezza needs a sharper time-to-value and simplicity response.",
+        "summary": "Teradata's content and social footprint continue to wrap hybrid control and AI scale into one platform story. Netezza needs a sharper time-to-value response built around open data, watsonx.data, and performant warehouse execution.",
         "publishedAt": "2026-04-10T09:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "18 days ago",
+        "freshnessLabel": "43 days ago",
         "dateLabel": "Apr 10, 2026"
       },
       {
@@ -181,8 +200,10 @@
         "actionLabel": "Open blog",
         "summary": "AWS is still publishing migration-centered Redshift content focused on performance gains and cost efficiency after moving off older warehouse setups. Netezza should answer with hybrid control and simpler estate transition proof.",
         "publishedAt": "2026-03-11T09:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "48 days ago",
+        "freshnessLabel": "73 days ago",
         "dateLabel": "Mar 11, 2026"
       },
       {
@@ -194,10 +215,12 @@
         "sourceBadge": "BLOG",
         "sourceUrl": "https://cloud.google.com/blog/products/data-analytics/using-the-fully-managed-remote-bigquery-mcp-server-to-build-data-ai-agents",
         "actionLabel": "Open blog",
-        "summary": "Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. That keeps BigQuery positioned as the analytics layer for agentic AI, where Netezza needs a more assertive governed-AI rebuttal.",
+        "summary": "Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. Netezza needs a governed AI-readiness story where the warehouse engine makes lakehouse data reliable, queryable, and cost-controlled for enterprise AI.",
         "publishedAt": "2026-01-07T08:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "111 days ago",
+        "freshnessLabel": "136 days ago",
         "dateLabel": "Jan 7, 2026"
       },
       {
@@ -211,8 +234,10 @@
         "actionLabel": "View TrustRadius",
         "summary": "BigQuery reviews are strong on scale and fast analytics, but still flag query-cost predictability and debugging friction. Netezza should attack that instability with more conviction.",
         "publishedAt": "2026-01-02T09:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "116 days ago",
+        "freshnessLabel": "141 days ago",
         "dateLabel": "Jan 2, 2026"
       },
       {
@@ -226,8 +251,10 @@
         "actionLabel": "View TrustRadius",
         "summary": "TrustRadius feedback says Synapse works for large warehouse scenarios but is lagging in active development and feature momentum. Netezza should exploit that hesitation aggressively.",
         "publishedAt": "2025-08-12T09:00:00Z",
+        "coverageType": "static",
+        "coverageLabel": "Static",
         "isNew": false,
-        "freshnessLabel": "259 days ago",
+        "freshnessLabel": "284 days ago",
         "dateLabel": "Aug 12, 2025"
       }
     ]
@@ -238,8 +265,8 @@
         "content": {
           "competitor": "IBM Netezza",
           "priority": "Urgent",
-          "title": "Databricks's AI-led modernization message needs a workload-fit counter page",
-          "summary": "Databricks is expanding migration connectors and AI governance in the same release wave. Netezza should treat this as a coordinated modernization plus trust narrative, not a random featur... Map this to comparison landing page with a direct Netezza response to Databricks Website.",
+          "title": "Databricks' AI-led modernization message needs a lakehouse performance-engine response",
+          "summary": "Databricks is expanding migration connectors and AI governance in the same release wave. Netezza should treat this as a lakehouse-modernization trigger and answer with performance-engine... Map this to comparison landing page with a direct Netezza response to Databricks Website.",
           "recommendation": "Use this live insight in the matching section."
         },
         "events": {
@@ -251,29 +278,55 @@
         },
         "market": {
           "competitor": "Databricks",
-          "priority": "10 days ago",
+          "priority": "35 days ago",
           "title": "Databricks LinkedIn signal",
-          "summary": "Databricks is actively telling the market that warehouse modernization value comes from consolidation, governed AI, and faster legacy decommissioning. That is a direct strike at Netezza-style enterprise estates.",
-          "recommendation": "Respond on LinkedIn from the Market Signals page."
+          "summary": "Databricks is telling the market that lakehouse consolidation, governed AI, and migration velocity belong in one platform. Netezza should not fight the lakehouse idea; it should show why lakehouses still need a performant warehouse engine for governed BI and repeat analytics.",
+          "recommendation": "Respond on LinkedIn from the Market Signals page.",
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/databricks",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static"
         },
         "product": {
           "competitor": "Databricks MLflow + Runtime",
           "priority": "P1 - Critical",
           "title": "Full in-database ML training and inference for data scientists",
-          "summary": "Netezza has made progress with watsonx.data integration and the 2026 roadmap now includes custom ML models and unstructured text processing inside the engine. The remaining gap is a fuller in-database ML story for data scientists, where Databricks, Snowflake Cortex, and BigQuery still market more aggressively. Current evidence: Databricks's linkedin signal is actively marketing AI-led modernization.",
+          "summary": "Netezza has made progress with watsonx.data integration and the 2026 roadmap now includes custom ML models and unstructured text processing inside the engine. The remaining gap is a fuller in-database ML story for data scientists, where Databricks, Snowflake Cortex, and BigQuery still market more aggressively. Current evidence: Databricks' linkedin signal is actively marketing AI-led modernization.",
           "recommendation": "IBM watsonx.ai + watsonx.data + Granite models"
         },
         "positioning": {
           "competitor": "Databricks",
           "priority": "Primary angle",
           "title": "Counter Databricks on AI-led modernization",
-          "summary": "Databricks's latest linkedin signal is pressing on AI-led modernization. That is exactly where Netezza should respond with governed simplicity and clearer workload-fit language.",
+          "summary": "Databricks' latest linkedin signal is pressing on AI-led modernization. That is exactly where Netezza should respond with lakehouse-ready performance, governed simplicity, and clearer workload-fit language.",
           "recommendation": "Answer the social narrative with a short executive POV and a seller-ready one-pager before the theme settles into active deals.",
           "tags": [
             "Databricks",
             "LINKEDIN",
-            "10 days ago"
-          ]
+            "35 days ago"
+          ],
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/databricks",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static"
         }
       },
       "sentiment": [
@@ -285,9 +338,9 @@
         },
         {
           "name": "Databricks",
-          "positive": 68,
+          "positive": 64,
           "neutral": 17,
-          "negative": 15
+          "negative": 19
         },
         {
           "name": "Snowflake",
@@ -324,58 +377,97 @@
     "content": {
       "alert": {
         "title": "Urgent: Databricks counter-narrative should ship this week",
-        "copy": "Databricks's latest website signal is pushing a fresh modernization story. Publish one response asset quickly so the market sees Netezza's hybrid, SQL-first position in the same decision window."
+        "copy": "Databricks' latest website signal is pushing a fresh modernization story. Publish one response asset quickly so the market sees Netezza as the performant warehouse engine for governed lakehouse analytics in the same decision window."
       },
       "ideas": [
         {
           "id": "live-content-databricks-web",
           "icon": "[]",
-          "title": "Databricks's AI-led modernization message needs a workload-fit counter page",
-          "summary": "Databricks is expanding migration connectors and AI governance in the same release wave. Netezza should treat this as a coordinated modernization plus trust narrative, not a random featur... Map this to comparison landing page with a direct Netezza response to Databricks Website.",
+          "title": "Databricks' AI-led modernization message needs a lakehouse performance-engine response",
+          "summary": "Databricks is expanding migration connectors and AI governance in the same release wave. Netezza should treat this as a lakehouse-modernization trigger and answer with performance-engine... Map this to comparison landing page with a direct Netezza response to Databricks Website.",
           "platform": "Comparison Landing Page",
           "status": "Urgent",
           "tags": [
             "Comparison Landing Page",
             "Counter-Databricks",
             "WEBSITE",
-            "11 days ago"
+            "36 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Comparison Landing Page\n\nWorking title: Databricks's AI-led modernization message needs a workload-fit counter page\n\nWhy now\n- Latest source: Databricks Website\n- Fresh signal: Databricks is expanding migration connectors and AI governance in the same release wave. Netezza should treat this as a coordinated modernization p...\n\nSection 1 - What Databricks is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Comparison Landing Page\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "Website",
+              "sourceBadge": "WEBSITE",
+              "sourceUrl": "https://docs.databricks.com/aws/en/release-notes/product/2026/april",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 17, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Comparison Landing Page\n\nWorking title: Databricks' AI-led modernization message needs a lakehouse performance-engine response\n\nWhy now\n- Latest source: Databricks Website\n- Fresh signal: Databricks is expanding migration connectors and AI governance in the same release wave. Netezza should treat this as a lakehouse-modernization tri...\n\nSection 1 - What Databricks is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Comparison Landing Page\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-databricks-g2",
           "icon": "$",
           "title": "What Databricks reviews still reveal about cost predictability",
-          "summary": "Databricks reviews still celebrate breadth and collaboration, but complexity and price keep surfacing. Netezza should hit ease, operating clarity, and lower architecture burden much harder. Map this to blog + review proof with a direct Netezza response to Databricks G2.",
+          "summary": "Databricks reviews still celebrate breadth and collaboration, but complexity and price keep surfacing. Netezza should position as the focused warehouse execution layer that lowers operati... Map this to blog + review proof with a direct Netezza response to Databricks G2.",
           "platform": "Blog + Review Proof",
           "status": "",
           "tags": [
             "Blog + Review Proof",
             "Counter-Databricks",
             "G2",
-            "12 days ago"
+            "37 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Blog + Review Proof\n\nWorking title: What Databricks reviews still reveal about cost predictability\n\nWhy now\n- Latest source: Databricks G2\n- Fresh signal: Databricks reviews still celebrate breadth and collaboration, but complexity and price keep surfacing. Netezza should hit ease, operating clarity,...\n\nSection 1 - What Databricks is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog + Review Proof\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "G2",
+              "sourceBadge": "G2",
+              "sourceUrl": "https://www.g2.com/products/databricks-data-intelligence-platform/reviews",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 16, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Blog + Review Proof\n\nWorking title: What Databricks reviews still reveal about cost predictability\n\nWhy now\n- Latest source: Databricks G2\n- Fresh signal: Databricks reviews still celebrate breadth and collaboration, but complexity and price keep surfacing. Netezza should position as the focused wareh...\n\nSection 1 - What Databricks is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog + Review Proof\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-databricks",
           "icon": "!",
-          "title": "Databricks's AI-led modernization narrative needs a direct executive response",
-          "summary": "Databricks is actively telling the market that warehouse modernization value comes from consolidation, governed AI, and faster legacy decommissioning. That is a direct strike at Netezza-s... Map this to linkedin article with a direct Netezza response to Databricks LinkedIn.",
+          "title": "Databricks' AI-led modernization narrative needs a direct executive response",
+          "summary": "Databricks is telling the market that lakehouse consolidation, governed AI, and migration velocity belong in one platform. Netezza should not fight the lakehouse idea; it should show why... Map this to linkedin article with a direct Netezza response to Databricks LinkedIn.",
           "platform": "LinkedIn Article",
           "status": "",
           "tags": [
             "LinkedIn Article",
             "Counter-Databricks",
             "LINKEDIN",
-            "10 days ago"
+            "35 days ago"
           ],
-          "outline": "DRAFT OUTLINE - LinkedIn Article\n\nWorking title: Databricks's AI-led modernization narrative needs a direct executive response\n\nWhy now\n- Latest source: Databricks LinkedIn\n- Fresh signal: Databricks is actively telling the market that warehouse modernization value comes from consolidation, governed AI, and faster legacy decommissioni...\n\nSection 1 - What Databricks is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: LinkedIn Article\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/databricks",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - LinkedIn Article\n\nWorking title: Databricks' AI-led modernization narrative needs a direct executive response\n\nWhy now\n- Latest source: Databricks LinkedIn\n- Fresh signal: Databricks is telling the market that lakehouse consolidation, governed AI, and migration velocity belong in one platform. Netezza should not fight...\n\nSection 1 - What Databricks is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: LinkedIn Article\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-snowflake-web",
           "icon": "[]",
-          "title": "Snowflake's AI-led modernization message needs a workload-fit counter page",
+          "title": "Snowflake's AI-led modernization message needs a lakehouse performance-engine response",
           "summary": "Snowflake's migration page openly promises low-risk modernization with free AI-powered tools. This is a clear install-base capture play against on-prem and legacy warehouse customers. Map this to comparison landing page with a direct Netezza response to Snowflake Website.",
           "platform": "Comparison Landing Page",
           "status": "",
@@ -383,9 +475,22 @@
             "Comparison Landing Page",
             "Counter-Snowflake",
             "WEBSITE",
-            "10 days ago"
+            "35 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Comparison Landing Page\n\nWorking title: Snowflake's AI-led modernization message needs a workload-fit counter page\n\nWhy now\n- Latest source: Snowflake Website\n- Fresh signal: Snowflake's migration page openly promises low-risk modernization with free AI-powered tools. This is a clear install-base capture play against on-...\n\nSection 1 - What Snowflake is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Comparison Landing Page\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Snowflake",
+              "sourceLabel": "Website",
+              "sourceBadge": "WEBSITE",
+              "sourceUrl": "https://www.snowflake.com/en/migrate-to-the-cloud/",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Comparison Landing Page\n\nWorking title: Snowflake's AI-led modernization message needs a lakehouse performance-engine response\n\nWhy now\n- Latest source: Snowflake Website\n- Fresh signal: Snowflake's migration page openly promises low-risk modernization with free AI-powered tools. This is a clear install-base capture play against on-...\n\nSection 1 - What Snowflake is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Comparison Landing Page\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-snowflake-g2",
@@ -398,39 +503,78 @@
             "Blog + Review Proof",
             "Counter-Snowflake",
             "G2",
-            "13 days ago"
+            "38 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Blog + Review Proof\n\nWorking title: What Snowflake reviews still reveal about cost predictability\n\nWhy now\n- Latest source: Snowflake G2\n- Fresh signal: Snowflake's review motion still combines speed and usability with cost pressure. Netezza should press on predictable economics before Snowflake's U...\n\nSection 1 - What Snowflake is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog + Review Proof\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Snowflake",
+              "sourceLabel": "G2",
+              "sourceBadge": "G2",
+              "sourceUrl": "https://www.g2.com/products/snowflake/reviews",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 15, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Blog + Review Proof\n\nWorking title: What Snowflake reviews still reveal about cost predictability\n\nWhy now\n- Latest source: Snowflake G2\n- Fresh signal: Snowflake's review motion still combines speed and usability with cost pressure. Netezza should press on predictable economics before Snowflake's U...\n\nSection 1 - What Snowflake is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog + Review Proof\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-snowflake",
           "icon": "!",
-          "title": "Snowflake's AI-led modernization narrative needs a direct executive response",
-          "summary": "Snowflake keeps using customer proof to turn migration and enterprise AI into an ease-of-adoption story. That threatens Netezza whenever buyers want cloud progress without operational fri... Map this to linkedin article with a direct Netezza response to Snowflake LinkedIn.",
+          "title": "Snowflake's cost predictability narrative needs a direct executive response",
+          "summary": "Snowflake keeps using customer proof to connect migration, enterprise AI, and managed warehouse execution. Netezza should counter with lakehouse-ready performance, cost governance, and hy... Map this to linkedin article with a direct Netezza response to Snowflake LinkedIn.",
           "platform": "LinkedIn Article",
           "status": "",
           "tags": [
             "LinkedIn Article",
             "Counter-Snowflake",
             "LINKEDIN",
-            "10 days ago"
+            "35 days ago"
           ],
-          "outline": "DRAFT OUTLINE - LinkedIn Article\n\nWorking title: Snowflake's AI-led modernization narrative needs a direct executive response\n\nWhy now\n- Latest source: Snowflake LinkedIn\n- Fresh signal: Snowflake keeps using customer proof to turn migration and enterprise AI into an ease-of-adoption story. That threatens Netezza whenever buyers wan...\n\nSection 1 - What Snowflake is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: LinkedIn Article\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Snowflake",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/snowflake-computing",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - LinkedIn Article\n\nWorking title: Snowflake's cost predictability narrative needs a direct executive response\n\nWhy now\n- Latest source: Snowflake LinkedIn\n- Fresh signal: Snowflake keeps using customer proof to connect migration, enterprise AI, and managed warehouse execution. Netezza should counter with lakehouse-re...\n\nSection 1 - What Snowflake is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: LinkedIn Article\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-bigquery-blog",
           "icon": "+",
-          "title": "AI-led modernization for enterprise teams: a Netezza response to BigQuery",
-          "summary": "Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. That keeps BigQuery positioned as the analytics layer for agentic AI, where Netezza needs a m... Map this to blog / seo with a direct Netezza response to Google BigQuery Blog.",
+          "title": "Cost predictability for lakehouse teams: a Netezza response to BigQuery",
+          "summary": "Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. Netezza needs a governed AI-readiness story where the warehouse engine makes lakehouse data r... Map this to blog / seo with a direct Netezza response to Google BigQuery Blog.",
           "platform": "Blog / SEO",
           "status": "",
           "tags": [
             "Blog / SEO",
             "Counter-BigQuery",
             "BLOG",
-            "111 days ago"
+            "136 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Blog / SEO\n\nWorking title: AI-led modernization for enterprise teams: a Netezza response to BigQuery\n\nWhy now\n- Latest source: Google BigQuery Blog\n- Fresh signal: Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. That keeps BigQuery positioned as the analytics layer...\n\nSection 1 - What Google BigQuery is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog / SEO\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Google BigQuery",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://cloud.google.com/blog/products/data-analytics/using-the-fully-managed-remote-bigquery-mcp-server-to-build-data-ai-agents",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Jan 7, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Blog / SEO\n\nWorking title: Cost predictability for lakehouse teams: a Netezza response to BigQuery\n\nWhy now\n- Latest source: Google BigQuery Blog\n- Fresh signal: Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. Netezza needs a governed AI-readiness story where the...\n\nSection 1 - What Google BigQuery is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog / SEO\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-bigquery-tr",
@@ -443,14 +587,27 @@
             "Blog + Review Proof",
             "Counter-BigQuery",
             "TRUSTRADIUS",
-            "116 days ago"
+            "141 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Blog + Review Proof\n\nWorking title: What BigQuery reviews still reveal about cost predictability\n\nWhy now\n- Latest source: Google BigQuery TrustRadius\n- Fresh signal: BigQuery reviews are strong on scale and fast analytics, but still flag query-cost predictability and debugging friction. Netezza should attack tha...\n\nSection 1 - What Google BigQuery is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog + Review Proof\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Google BigQuery",
+              "sourceLabel": "TrustRadius",
+              "sourceBadge": "TRUSTRADIUS",
+              "sourceUrl": "https://www.trustradius.com/products/google-bigquery/reviews",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Jan 2, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Blog + Review Proof\n\nWorking title: What BigQuery reviews still reveal about cost predictability\n\nWhy now\n- Latest source: Google BigQuery TrustRadius\n- Fresh signal: BigQuery reviews are strong on scale and fast analytics, but still flag query-cost predictability and debugging friction. Netezza should attack tha...\n\nSection 1 - What Google BigQuery is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog + Review Proof\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-redshift-blog",
           "icon": "+",
-          "title": "Cost predictability for enterprise teams: a Netezza response to Redshift",
+          "title": "Cost predictability for lakehouse teams: a Netezza response to Redshift",
           "summary": "AWS is still publishing migration-centered Redshift content focused on performance gains and cost efficiency after moving off older warehouse setups. Netezza should answer with hybrid con... Map this to blog / seo with a direct Netezza response to Amazon Redshift Blog.",
           "platform": "Blog / SEO",
           "status": "",
@@ -458,29 +615,55 @@
             "Blog / SEO",
             "Counter-Redshift",
             "BLOG",
-            "48 days ago"
+            "73 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Blog / SEO\n\nWorking title: Cost predictability for enterprise teams: a Netezza response to Redshift\n\nWhy now\n- Latest source: Amazon Redshift Blog\n- Fresh signal: AWS is still publishing migration-centered Redshift content focused on performance gains and cost efficiency after moving off older warehouse setup...\n\nSection 1 - What Amazon Redshift is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog / SEO\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Amazon Redshift",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Mar 11, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Blog / SEO\n\nWorking title: Cost predictability for lakehouse teams: a Netezza response to Redshift\n\nWhy now\n- Latest source: Amazon Redshift Blog\n- Fresh signal: AWS is still publishing migration-centered Redshift content focused on performance gains and cost efficiency after moving off older warehouse setup...\n\nSection 1 - What Amazon Redshift is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog / SEO\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-redshift-web",
           "icon": "[]",
-          "title": "Redshift's cost predictability message needs a workload-fit counter page",
-          "summary": "Redshift's feature page is leaning on price performance, lakehouse SQL, and near-real-time analytics. The AWS message is trying to make cloud-native scale feel like the obvious default. Map this to comparison landing page with a direct Netezza response to Amazon Redshift Website.",
+          "title": "Redshift's cost predictability message needs a lakehouse performance-engine response",
+          "summary": "Redshift's feature page is leaning on price performance, lakehouse SQL, and near-real-time analytics. Netezza should respond by proving why open lakehouse architectures still need governe... Map this to comparison landing page with a direct Netezza response to Amazon Redshift Website.",
           "platform": "Comparison Landing Page",
           "status": "",
           "tags": [
             "Comparison Landing Page",
             "Counter-Redshift",
             "WEBSITE",
-            "10 days ago"
+            "35 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Comparison Landing Page\n\nWorking title: Redshift's cost predictability message needs a workload-fit counter page\n\nWhy now\n- Latest source: Amazon Redshift Website\n- Fresh signal: Redshift's feature page is leaning on price performance, lakehouse SQL, and near-real-time analytics. The AWS message is trying to make cloud-nativ...\n\nSection 1 - What Amazon Redshift is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Comparison Landing Page\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Amazon Redshift",
+              "sourceLabel": "Website",
+              "sourceBadge": "WEBSITE",
+              "sourceUrl": "https://aws.amazon.com/redshift/features/",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Comparison Landing Page\n\nWorking title: Redshift's cost predictability message needs a lakehouse performance-engine response\n\nWhy now\n- Latest source: Amazon Redshift Website\n- Fresh signal: Redshift's feature page is leaning on price performance, lakehouse SQL, and near-real-time analytics. Netezza should respond by proving why open la...\n\nSection 1 - What Amazon Redshift is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Comparison Landing Page\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-azure-web",
           "icon": "[]",
-          "title": "Synapse's migration acceleration message needs a workload-fit counter page",
+          "title": "Synapse's migration acceleration message needs a lakehouse performance-engine response",
           "summary": "Microsoft is using the Synapse page to funnel buyers toward Fabric migration. That weakens Synapse's standalone identity and gives Netezza a chance to frame focus as a strength. Map this to comparison landing page with a direct Netezza response to Azure Synapse Website.",
           "platform": "Comparison Landing Page",
           "status": "",
@@ -488,9 +671,22 @@
             "Comparison Landing Page",
             "Counter-Synapse",
             "WEBSITE",
-            "10 days ago"
+            "35 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Comparison Landing Page\n\nWorking title: Synapse's migration acceleration message needs a workload-fit counter page\n\nWhy now\n- Latest source: Azure Synapse Website\n- Fresh signal: Microsoft is using the Synapse page to funnel buyers toward Fabric migration. That weakens Synapse's standalone identity and gives Netezza a chance...\n\nSection 1 - What Azure Synapse is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Comparison Landing Page\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Azure Synapse",
+              "sourceLabel": "Website",
+              "sourceBadge": "WEBSITE",
+              "sourceUrl": "https://azure.microsoft.com/en-us/products/synapse-analytics/",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Comparison Landing Page\n\nWorking title: Synapse's migration acceleration message needs a lakehouse performance-engine response\n\nWhy now\n- Latest source: Azure Synapse Website\n- Fresh signal: Microsoft is using the Synapse page to funnel buyers toward Fabric migration. That weakens Synapse's standalone identity and gives Netezza a chance...\n\nSection 1 - What Azure Synapse is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Comparison Landing Page\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-azure-tr",
@@ -503,39 +699,78 @@
             "Blog + Review Proof",
             "Counter-Synapse",
             "TRUSTRADIUS",
-            "259 days ago"
+            "284 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Blog + Review Proof\n\nWorking title: What Synapse reviews still reveal about governed enterprise analytics\n\nWhy now\n- Latest source: Azure Synapse TrustRadius\n- Fresh signal: TrustRadius feedback says Synapse works for large warehouse scenarios but is lagging in active development and feature momentum. Netezza should exp...\n\nSection 1 - What Azure Synapse is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog + Review Proof\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Azure Synapse",
+              "sourceLabel": "TrustRadius",
+              "sourceBadge": "TRUSTRADIUS",
+              "sourceUrl": "https://www.trustradius.com/products/azure-synapse-analytics/reviews/all",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Aug 12, 2025"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Blog + Review Proof\n\nWorking title: What Synapse reviews still reveal about governed enterprise analytics\n\nWhy now\n- Latest source: Azure Synapse TrustRadius\n- Fresh signal: TrustRadius feedback says Synapse works for large warehouse scenarios but is lagging in active development and feature momentum. Netezza should exp...\n\nSection 1 - What Azure Synapse is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog + Review Proof\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-teradata-blog",
           "icon": "+",
-          "title": "AI-led modernization for enterprise teams: a Netezza response to Teradata",
-          "summary": "Teradata's content and social footprint continue to wrap hybrid control and AI scale into one platform story. Netezza needs a sharper time-to-value and simplicity response. Map this to blog / seo with a direct Netezza response to Teradata Blog.",
+          "title": "AI-led modernization for lakehouse teams: a Netezza response to Teradata",
+          "summary": "Teradata's content and social footprint continue to wrap hybrid control and AI scale into one platform story. Netezza needs a sharper time-to-value response built around open data, watson... Map this to blog / seo with a direct Netezza response to Teradata Blog.",
           "platform": "Blog / SEO",
           "status": "",
           "tags": [
             "Blog / SEO",
             "Counter-Teradata",
             "BLOG",
-            "18 days ago"
+            "43 days ago"
           ],
-          "outline": "DRAFT OUTLINE - Blog / SEO\n\nWorking title: AI-led modernization for enterprise teams: a Netezza response to Teradata\n\nWhy now\n- Latest source: Teradata Blog\n- Fresh signal: Teradata's content and social footprint continue to wrap hybrid control and AI scale into one platform story. Netezza needs a sharper time-to-value...\n\nSection 1 - What Teradata is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog / SEO\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Teradata",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://www.teradata.com/Blogs/RSS",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 10, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - Blog / SEO\n\nWorking title: AI-led modernization for lakehouse teams: a Netezza response to Teradata\n\nWhy now\n- Latest source: Teradata Blog\n- Fresh signal: Teradata's content and social footprint continue to wrap hybrid control and AI scale into one platform story. Netezza needs a sharper time-to-value...\n\nSection 1 - What Teradata is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: Blog / SEO\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         },
         {
           "id": "live-content-teradata-li",
           "icon": "!",
           "title": "Teradata's cost predictability narrative needs a direct executive response",
-          "summary": "Teradata is loudly attaching agentic AI outcomes to hard ROI and lower operating cost. That message competes directly with Netezza in enterprise accounts that care about governed AI plus... Map this to linkedin article with a direct Netezza response to Teradata LinkedIn.",
+          "summary": "Teradata is attaching agentic AI outcomes to enterprise-scale analytics and operating cost. Netezza should answer with faster proof that lakehouse data needs a governed, performant wareho... Map this to linkedin article with a direct Netezza response to Teradata LinkedIn.",
           "platform": "LinkedIn Article",
           "status": "",
           "tags": [
             "LinkedIn Article",
             "Counter-Teradata",
             "LINKEDIN",
-            "10 days ago"
+            "35 days ago"
           ],
-          "outline": "DRAFT OUTLINE - LinkedIn Article\n\nWorking title: Teradata's cost predictability narrative needs a direct executive response\n\nWhy now\n- Latest source: Teradata LinkedIn\n- Fresh signal: Teradata is loudly attaching agentic AI outcomes to hard ROI and lower operating cost. That message competes directly with Netezza in enterprise ac...\n\nSection 1 - What Teradata is telling the market\nSection 2 - Why that message overreaches for governed enterprise analytics\nSection 3 - Where Netezza should redirect the evaluation\n- Hybrid deployment control\n- Predictable economics\n- SQL-first simplicity\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: LinkedIn Article\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
+          "citations": [
+            {
+              "competitor": "Teradata",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/teradata",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "DRAFT OUTLINE - LinkedIn Article\n\nWorking title: Teradata's cost predictability narrative needs a direct executive response\n\nWhy now\n- Latest source: Teradata LinkedIn\n- Fresh signal: Teradata is attaching agentic AI outcomes to enterprise-scale analytics and operating cost. Netezza should answer with faster proof that lakehouse...\n\nSection 1 - What Teradata is telling the market\nSection 2 - Why lakehouse strategy still depends on governed query execution\nSection 3 - Where Netezza should redirect the evaluation\n- Warehouse-grade performance for lakehouse data\n- Hybrid deployment control\n- Predictable economics\n- IBM trust for regulated workloads\nSection 4 - Questions buyers should ask before following the competitor narrative\n\nPublishing guidance\n- Platform: LinkedIn Article\n- Primary CTA: Book a Netezza architecture briefing\n- Reuse: seller snippet + social post + comparison slide"
         }
       ]
     },
@@ -551,31 +786,83 @@
           "title": "Battle card: Netezza vs Databricks",
           "summary": "Refresh the seller battle card with live evidence from LinkedIn. Focus on AI-led modernization and current objection handlers.",
           "status": "Urgent",
-          "outline": "OUTLINE - Battle card\n\nCompetitive source\n- Databricks LinkedIn\n- Databricks is actively telling the market that warehouse modernization value comes from consolidation, governed AI, and faster legacy dec...\n\nSection 1 - When Netezza wins\nSection 2 - Where Databricks is strongest right now\nSection 3 - Landmines to use carefully\nSection 4 - Objection handlers\nSection 5 - Proof points to include\n- Hybrid / on-prem control\n- Predictable query performance\n- Cost clarity\n- Governance for regulated teams\n\nField action\n- Refresh seller talk track this week\n- Add one quote or screenshot from the live source page"
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/databricks",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "OUTLINE - Battle card\n\nCompetitive source\n- Databricks LinkedIn\n- Databricks is telling the market that lakehouse consolidation, governed AI, and migration velocity belong in one platform. Netezza should...\n\nSection 1 - When Netezza wins\nSection 2 - Where Databricks is strongest right now\nSection 3 - Landmines to use carefully\nSection 4 - Objection handlers\nSection 5 - Proof points to include\n- Warehouse-grade execution for open lakehouse data\n- Hybrid / on-prem control\n- Predictable query performance\n- Cost clarity\n- Governance for regulated teams\n\nField action\n- Refresh seller talk track this week\n- Add one quote or screenshot from the live source page"
         },
         {
           "id": "live-pmm-battle-snowflake",
           "icon": "X",
           "title": "Battle card: Netezza vs Snowflake",
-          "summary": "Refresh the seller battle card with live evidence from LinkedIn. Focus on AI-led modernization and current objection handlers.",
+          "summary": "Refresh the seller battle card with live evidence from LinkedIn. Focus on cost predictability and current objection handlers.",
           "status": "",
-          "outline": "OUTLINE - Battle card\n\nCompetitive source\n- Snowflake LinkedIn\n- Snowflake keeps using customer proof to turn migration and enterprise AI into an ease-of-adoption story. That threatens Netezza whenever...\n\nSection 1 - When Netezza wins\nSection 2 - Where Snowflake is strongest right now\nSection 3 - Landmines to use carefully\nSection 4 - Objection handlers\nSection 5 - Proof points to include\n- Hybrid / on-prem control\n- Predictable query performance\n- Cost clarity\n- Governance for regulated teams\n\nField action\n- Refresh seller talk track this week\n- Add one quote or screenshot from the live source page"
+          "citations": [
+            {
+              "competitor": "Snowflake",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/snowflake-computing",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "OUTLINE - Battle card\n\nCompetitive source\n- Snowflake LinkedIn\n- Snowflake keeps using customer proof to connect migration, enterprise AI, and managed warehouse execution. Netezza should counter with la...\n\nSection 1 - When Netezza wins\nSection 2 - Where Snowflake is strongest right now\nSection 3 - Landmines to use carefully\nSection 4 - Objection handlers\nSection 5 - Proof points to include\n- Warehouse-grade execution for open lakehouse data\n- Hybrid / on-prem control\n- Predictable query performance\n- Cost clarity\n- Governance for regulated teams\n\nField action\n- Refresh seller talk track this week\n- Add one quote or screenshot from the live source page"
         },
         {
           "id": "live-pmm-battle-bigquery-blog",
           "icon": "X",
           "title": "Battle card: Netezza vs BigQuery",
-          "summary": "Refresh the seller battle card with live evidence from Blog. Focus on AI-led modernization and current objection handlers.",
+          "summary": "Refresh the seller battle card with live evidence from Blog. Focus on cost predictability and current objection handlers.",
           "status": "",
-          "outline": "OUTLINE - Battle card\n\nCompetitive source\n- Google BigQuery Blog\n- Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. That keeps BigQuery positioned as the analy...\n\nSection 1 - When Netezza wins\nSection 2 - Where Google BigQuery is strongest right now\nSection 3 - Landmines to use carefully\nSection 4 - Objection handlers\nSection 5 - Proof points to include\n- Hybrid / on-prem control\n- Predictable query performance\n- Cost clarity\n- Governance for regulated teams\n\nField action\n- Refresh seller talk track this week\n- Add one quote or screenshot from the live source page"
+          "citations": [
+            {
+              "competitor": "Google BigQuery",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://cloud.google.com/blog/products/data-analytics/using-the-fully-managed-remote-bigquery-mcp-server-to-build-data-ai-agents",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Jan 7, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "OUTLINE - Battle card\n\nCompetitive source\n- Google BigQuery Blog\n- Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. Netezza needs a governed AI-readiness story...\n\nSection 1 - When Netezza wins\nSection 2 - Where Google BigQuery is strongest right now\nSection 3 - Landmines to use carefully\nSection 4 - Objection handlers\nSection 5 - Proof points to include\n- Warehouse-grade execution for open lakehouse data\n- Hybrid / on-prem control\n- Predictable query performance\n- Cost clarity\n- Governance for regulated teams\n\nField action\n- Refresh seller talk track this week\n- Add one quote or screenshot from the live source page"
         },
         {
           "id": "live-pmm-counter-databricks",
           "icon": "!",
           "title": "Counter-post: Databricks linkedin narrative",
-          "summary": "Create a short executive-ready post that answers Databricks's latest linkedin message with a clearer Netezza point of view.",
+          "summary": "Create a short executive-ready post that answers Databricks' latest linkedin message with a clearer Netezza point of view.",
           "status": "Urgent",
-          "outline": "OUTLINE - Executive counter-post\n\nOpening line\n- Acknowledge the market narrative without repeating it verbatim.\n\nPoint 1\n- What Databricks is trying to make inevitable: AI-led modernization\n\nPoint 2\n- Why enterprise buyers still need governed structured analytics\n\nPoint 3\n- Where Netezza is intentionally different\n- Hybrid deployment\n- SQL-first teams\n- Predictable economics\n- IBM trust and compliance posture\n\nClosing CTA\n- Ask buyers which workload, risk, or control requirement is actually driving the decision.\n\nReference source\n- https://www.linkedin.com/company/databricks"
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/databricks",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "OUTLINE - Executive counter-post\n\nOpening line\n- Acknowledge the lakehouse narrative without repeating it verbatim.\n\nPoint 1\n- What Databricks is trying to make inevitable: AI-led modernization\n\nPoint 2\n- Why enterprise lakehouses still need governed warehouse-grade execution\n\nPoint 3\n- Where Netezza is intentionally different\n- Hybrid deployment\n- Open table and object-storage integration\n- Predictable economics\n- IBM trust and compliance posture\n\nClosing CTA\n- Ask buyers which workload, risk, or control requirement is actually driving the decision.\n\nReference source\n- https://www.linkedin.com/company/databricks"
         },
         {
           "id": "live-pmm-cio-briefing",
@@ -583,15 +870,131 @@
           "title": "CIO briefing: live competitive position",
           "summary": "Executive-ready narrative covering the current pressure set across Databricks, Snowflake, BigQuery, Redshift, Synapse, Teradata.",
           "status": "",
-          "outline": "OUTLINE - CIO briefing\n\nSlide 1 - What changed in the last refresh window\n- Databricks: Databricks is actively telling the market that warehouse modernization value comes from consolidation, gove...\n- Snowflake: Snowflake keeps using customer proof to turn migration and enterprise AI into an ease-of-adoption story. Th...\n- Google BigQuery: Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. That keeps Bi...\n- Amazon Redshift: AWS is still publishing migration-centered Redshift content focused on performance gains and cost efficienc...\n- Azure Synapse: Microsoft is using the Synapse page to funnel buyers toward Fabric migration. That weakens Synapse's standa...\n- Teradata: Teradata is loudly attaching agentic AI outcomes to hard ROI and lower operating cost. That message compete...\n\nSlide 2 - Where Netezza still leads\n- Hybrid / on-prem flexibility\n- Predictable economics\n- SQL-first governed analytics\n\nSlide 3 - What to say in active deals\n- Keep cloud-only narratives workload-specific\n- Use IBM trust and regulated-readiness proof\n- Avoid parity language where the proof is not ready\n\nSlide 4 - Immediate asks for PMM and sales\n- Update battle cards\n- Refresh web proof\n- Push one executive POV asset this week"
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/databricks",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            },
+            {
+              "competitor": "Snowflake",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/snowflake-computing",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            },
+            {
+              "competitor": "Google BigQuery",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://cloud.google.com/blog/products/data-analytics/using-the-fully-managed-remote-bigquery-mcp-server-to-build-data-ai-agents",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Jan 7, 2026"
+            },
+            {
+              "competitor": "Amazon Redshift",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Mar 11, 2026"
+            },
+            {
+              "competitor": "Azure Synapse",
+              "sourceLabel": "Website",
+              "sourceBadge": "WEBSITE",
+              "sourceUrl": "https://azure.microsoft.com/en-us/products/synapse-analytics/",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            },
+            {
+              "competitor": "Teradata",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/teradata",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "OUTLINE - CIO briefing\n\nSlide 1 - What changed in the last refresh window\n- Databricks: Databricks is telling the market that lakehouse consolidation, governed AI, and migration velocity belong i...\n- Snowflake: Snowflake keeps using customer proof to connect migration, enterprise AI, and managed warehouse execution....\n- Google BigQuery: Google Cloud is tying BigQuery directly to AI-agent workflows through the managed MCP server. Netezza needs...\n- Amazon Redshift: AWS is still publishing migration-centered Redshift content focused on performance gains and cost efficienc...\n- Azure Synapse: Microsoft is using the Synapse page to funnel buyers toward Fabric migration. That weakens Synapse's standa...\n- Teradata: Teradata is attaching agentic AI outcomes to enterprise-scale analytics and operating cost. Netezza should...\n\nSlide 2 - Where Netezza still leads\n- Hybrid / on-prem flexibility\n- Predictable economics\n- Warehouse-grade execution for lakehouse data\n\nSlide 3 - What to say in active deals\n- Complement lakehouse strategy with performance-engine proof\n- Use IBM trust and regulated-readiness proof\n- Avoid parity language where the proof is not ready\n\nSlide 4 - Immediate asks for PMM and sales\n- Update battle cards\n- Refresh web proof\n- Push one executive POV asset this week"
         },
         {
           "id": "live-pmm-analyst-briefing",
           "icon": "^",
           "title": "Analyst briefing topics - live narrative shifts",
-          "summary": "Package the latest competitive narratives into a concise analyst briefing memo so category framing does not drift toward cloud-only assumptions.",
+          "summary": "Package the latest competitive narratives into a concise analyst briefing memo so category framing includes the warehouse engine a lakehouse needs.",
           "status": "",
-          "outline": "OUTLINE - Analyst briefing memo\n\nTheme 1 - Why structured analytics still needs its own narrative\nTheme 2 - Which competitor messages are gaining share of voice now\n- Databricks: AI-led modernization\n- Snowflake: AI-led modernization\n- Google BigQuery: AI-led modernization\n- Amazon Redshift: cost predictability\n- Azure Synapse: migration acceleration\n- Teradata: cost predictability\n\nTheme 3 - Why hybrid deployment remains strategic\nTheme 4 - Why predictable economics should stay in category evaluation criteria\nTheme 5 - What IBM wants analysts to notice in Netezza's 2026 story\n\nDeliverables\n- 1-page memo\n- 5 talking points\n- follow-up proof links"
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/databricks",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            },
+            {
+              "competitor": "Snowflake",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/snowflake-computing",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            },
+            {
+              "competitor": "Google BigQuery",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://cloud.google.com/blog/products/data-analytics/using-the-fully-managed-remote-bigquery-mcp-server-to-build-data-ai-agents",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Jan 7, 2026"
+            },
+            {
+              "competitor": "Amazon Redshift",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Mar 11, 2026"
+            },
+            {
+              "competitor": "Azure Synapse",
+              "sourceLabel": "Website",
+              "sourceBadge": "WEBSITE",
+              "sourceUrl": "https://azure.microsoft.com/en-us/products/synapse-analytics/",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            },
+            {
+              "competitor": "Teradata",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/teradata",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static",
+          "outline": "OUTLINE - Analyst briefing memo\n\nTheme 1 - Why lakehouse architectures still need performant warehouse execution\nTheme 2 - Which competitor messages are gaining share of voice now\n- Databricks: AI-led modernization\n- Snowflake: cost predictability\n- Google BigQuery: cost predictability\n- Amazon Redshift: cost predictability\n- Azure Synapse: migration acceleration\n- Teradata: cost predictability\n\nTheme 3 - Why hybrid deployment remains strategic\nTheme 4 - Why predictable economics should stay in category evaluation criteria\nTheme 5 - What IBM wants analysts to notice in Netezza's 2026 story\n\nDeliverables\n- 1-page memo\n- 5 talking points\n- follow-up proof links"
         }
       ]
     },
@@ -608,17 +1011,17 @@
       ],
       "criticalGap": {
         "title": "Remaining critical gap - full in-database ml training and inference for data scientists",
-        "copy": "Netezza has made progress with watsonx.data integration and the 2026 roadmap now includes custom ML models and unstructured text processing inside the engine. The remaining gap is a fuller in-database ML story for data scientists, where Databricks, Snowflake Cortex, and BigQuery still market more aggressively. Live pressure signal: Databricks's latest linkedin update is reinforcing AI-led modernization."
+        "copy": "Netezza has made progress with watsonx.data integration and the 2026 roadmap now includes custom ML models and unstructured text processing inside the engine. The remaining gap is a fuller in-database ML story for data scientists, where Databricks, Snowflake Cortex, and BigQuery still market more aggressively. Live pressure signal: Databricks' latest linkedin update is reinforcing AI-led modernization."
       },
       "confirmedStrengths": [
         {
           "status": "Shipped - GA",
           "title": "Apache Iceberg open table format support",
-          "summary": "IBM Netezza now supports Apache Iceberg natively, with buyer-facing compatibility language around Unity Catalog, AWS Glue, and Azure Purview. This closes one of the most cited open-table objections in competitive evaluations. Latest market pressure: Databricks's website signal still leans on AI-led modernization.",
-          "leverage": "Lead with this in all Databricks and Snowflake competitive deals immediately.",
+          "summary": "IBM Netezza now supports Apache Iceberg natively, with buyer-facing compatibility language around Unity Catalog, AWS Glue, and Azure Purview. This closes one of the most cited open-table objections in competitive evaluations. Latest market pressure: Databricks' website signal still leans on AI-led modernization.",
+          "leverage": "Lead with this in Databricks and Snowflake deals as proof that Netezza can be the warehouse execution layer for open lakehouse data.",
           "tags": [
             "Open table formats",
-            "Counter 'open lakehouse' narrative",
+            "Lakehouse performance engine",
             "Gap closed"
           ]
         },
@@ -636,7 +1039,7 @@
         {
           "status": "Shipped - GA",
           "title": "Time Travel + HIPAA / SOC 2 posture",
-          "summary": "Historical versioning plus regulated-readiness proof strengthens Netezza's differentiation with buyers who care about governance, auditability, and operational trust more than cloud-only novelty. Latest market pressure: Google BigQuery's blog signal still leans on AI-led modernization.",
+          "summary": "Historical versioning plus regulated-readiness proof strengthens Netezza's differentiation with buyers who care about governance, auditability, and operational trust more than cloud-only novelty. Latest market pressure: Google BigQuery's blog signal still leans on cost predictability.",
           "leverage": "Use this as the default PMM message in BFSI, healthcare, and public-sector narratives.",
           "tags": [
             "Regulated industries",
@@ -651,7 +1054,7 @@
           "priority": "P1 - Critical",
           "title": "Full in-database ML training and inference for data scientists",
           "gapScore": "6.5 / 10",
-          "copy": "Netezza has made progress with watsonx.data integration and the 2026 roadmap now includes custom ML models and unstructured text processing inside the engine. The remaining gap is a fuller in-database ML story for data scientists, where Databricks, Snowflake Cortex, and BigQuery still market more aggressively. Current evidence: Databricks's linkedin signal is actively marketing AI-led modernization.",
+          "copy": "Netezza has made progress with watsonx.data integration and the 2026 roadmap now includes custom ML models and unstructured text processing inside the engine. The remaining gap is a fuller in-database ML story for data scientists, where Databricks, Snowflake Cortex, and BigQuery still market more aggressively. Current evidence: Databricks' linkedin signal is actively marketing AI-led modernization.",
           "current": "watsonx.data integration, Hadoop / Hive / Kerberos connectivity, custom ML in-engine roadmap",
           "leverage": "IBM watsonx.ai + watsonx.data + Granite models",
           "impact": "CDO, Head of Data Science, Data Architect",
@@ -749,24 +1152,24 @@
     "positioning": {
       "recommendation": {
         "label": "Live positioning recommendation",
-        "statement": "The enterprise SQL data warehouse for teams that need predictable performance, hybrid flexibility, and governed structured analytics without the complexity of a lakehouse.",
-        "evidence": "Latest proof: Databricks's linkedin signal is reinforcing AI-led modernization. That keeps Netezza's best response anchored in control, simplicity, and workload-fit credibility."
+        "statement": "The performant warehouse engine for open lakehouse architectures: governed, hybrid, and cost-disciplined execution for enterprise analytics that cannot afford slow or unpredictable queries.",
+        "evidence": "Latest proof: Databricks' linkedin signal is reinforcing AI-led modernization. That keeps Netezza's best response anchored in lakehouse-ready performance, control, and workload-fit credibility."
       },
       "messagePillars": [
         {
           "tone": "pillar-content",
-          "title": "Performance certainty",
-          "text": "Position Netezza as the structured analytics platform that delivers speed without cloud-billing drama or platform sprawl. Right now this matters because Databricks is emphasizing AI-led modernization."
+          "title": "Lakehouse performance engine",
+          "text": "Position Netezza as the warehouse-grade execution layer that makes open lakehouse data fast, governed, and ready for repeat analytics. Right now this matters because Databricks is emphasizing AI-led modernization."
         },
         {
           "tone": "pillar-events",
           "title": "Hybrid freedom",
-          "text": "Make deployment flexibility central whenever the evaluation includes sovereignty, residency, or infrastructure control requirements. Right now this matters because Snowflake is emphasizing AI-led modernization."
+          "text": "Make deployment flexibility central whenever the lakehouse evaluation includes sovereignty, residency, or infrastructure control requirements. Right now this matters because Snowflake is emphasizing cost predictability."
         },
         {
           "tone": "pillar-market",
           "title": "Predictable economics",
-          "text": "Use cost stories, NCOS proof, and governance-friendly economics to neutralize cloud-first pricing narratives. Right now this matters because Google BigQuery is emphasizing AI-led modernization."
+          "text": "Use cost stories, NCOS proof, and governance-friendly economics to show how performant warehouse execution controls lakehouse query spend. Right now this matters because Google BigQuery is emphasizing cost predictability."
         },
         {
           "tone": "pillar-product",
@@ -775,8 +1178,8 @@
         },
         {
           "tone": "pillar-positioning",
-          "title": "SQL-first simplicity",
-          "text": "Highlight operational simplicity and analyst productivity when competitors drift toward engineering-heavy platform messaging."
+          "title": "Open data execution",
+          "text": "Highlight Iceberg, object storage, and watsonx.data adjacency so Netezza complements lakehouse architecture instead of fighting it."
         }
       ],
       "responseAngles": [
@@ -784,54 +1187,106 @@
           "competitor": "Databricks",
           "priority": "Primary angle",
           "title": "Counter Databricks on AI-led modernization",
-          "summary": "Databricks's latest linkedin signal is pressing on AI-led modernization. That is exactly where Netezza should respond with governed simplicity and clearer workload-fit language.",
+          "summary": "Databricks' latest linkedin signal is pressing on AI-led modernization. That is exactly where Netezza should respond with lakehouse-ready performance, governed simplicity, and clearer workload-fit language.",
           "recommendation": "Answer the social narrative with a short executive POV and a seller-ready one-pager before the theme settles into active deals.",
           "tags": [
             "Databricks",
             "LINKEDIN",
-            "10 days ago"
-          ]
+            "35 days ago"
+          ],
+          "citations": [
+            {
+              "competitor": "Databricks",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/databricks",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static"
         },
         {
           "competitor": "Snowflake",
           "priority": "Rebuttal",
-          "title": "Counter Snowflake on AI-led modernization",
-          "summary": "Snowflake's latest linkedin signal is pressing on AI-led modernization. That is exactly where Netezza should respond with governed simplicity and clearer workload-fit language.",
+          "title": "Counter Snowflake on cost predictability",
+          "summary": "Snowflake's latest linkedin signal is pressing on cost predictability. That is exactly where Netezza should respond with lakehouse-ready performance, governed simplicity, and clearer workload-fit language.",
           "recommendation": "Answer the social narrative with a short executive POV and a seller-ready one-pager before the theme settles into active deals.",
           "tags": [
             "Snowflake",
             "LINKEDIN",
-            "10 days ago"
-          ]
+            "35 days ago"
+          ],
+          "citations": [
+            {
+              "competitor": "Snowflake",
+              "sourceLabel": "LinkedIn",
+              "sourceBadge": "LINKEDIN",
+              "sourceUrl": "https://www.linkedin.com/company/snowflake-computing",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Apr 18, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static"
         },
         {
           "competitor": "Google BigQuery",
           "priority": "Sales angle",
-          "title": "Counter BigQuery on AI-led modernization",
-          "summary": "Google BigQuery's latest blog signal is pressing on AI-led modernization. That is exactly where Netezza should respond with governed simplicity and clearer workload-fit language.",
+          "title": "Counter BigQuery on cost predictability",
+          "summary": "Google BigQuery's latest blog signal is pressing on cost predictability. That is exactly where Netezza should respond with lakehouse-ready performance, governed simplicity, and clearer workload-fit language.",
           "recommendation": "Convert the signal into one thought-leadership asset and one field rebuttal so PMM and sales stay aligned.",
           "tags": [
             "BigQuery",
             "BLOG",
-            "111 days ago"
-          ]
+            "136 days ago"
+          ],
+          "citations": [
+            {
+              "competitor": "Google BigQuery",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://cloud.google.com/blog/products/data-analytics/using-the-fully-managed-remote-bigquery-mcp-server-to-build-data-ai-agents",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Jan 7, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static"
         },
         {
           "competitor": "Amazon Redshift",
           "priority": "Sales angle",
           "title": "Counter Redshift on cost predictability",
-          "summary": "Amazon Redshift's latest blog signal is pressing on cost predictability. That is exactly where Netezza should respond with governed simplicity and clearer workload-fit language.",
+          "summary": "Amazon Redshift's latest blog signal is pressing on cost predictability. That is exactly where Netezza should respond with lakehouse-ready performance, governed simplicity, and clearer workload-fit language.",
           "recommendation": "Convert the signal into one thought-leadership asset and one field rebuttal so PMM and sales stay aligned.",
           "tags": [
             "Redshift",
             "BLOG",
-            "48 days ago"
-          ]
+            "73 days ago"
+          ],
+          "citations": [
+            {
+              "competitor": "Amazon Redshift",
+              "sourceLabel": "Blog",
+              "sourceBadge": "BLOG",
+              "sourceUrl": "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+              "coverageType": "static",
+              "coverageLabel": "Static",
+              "dateLabel": "Mar 11, 2026"
+            }
+          ],
+          "coverageType": "static",
+          "coverageLabel": "Static"
         }
       ],
       "productCriticalGap": {
         "title": "Remaining critical gap - full in-database ml training and inference for data scientists",
-        "copy": "Netezza has made progress with watsonx.data integration and the 2026 roadmap now includes custom ML models and unstructured text processing inside the engine. The remaining gap is a fuller in-database ML story for data scientists, where Databricks, Snowflake Cortex, and BigQuery still market more aggressively. Live pressure signal: Databricks's latest linkedin update is reinforcing AI-led modernization."
+        "copy": "Netezza has made progress with watsonx.data integration and the 2026 roadmap now includes custom ML models and unstructured text processing inside the engine. The remaining gap is a fuller in-database ML story for data scientists, where Databricks, Snowflake Cortex, and BigQuery still market more aggressively. Live pressure signal: Databricks' latest linkedin update is reinforcing AI-led modernization."
       }
     }
   }
